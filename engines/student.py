@@ -12,7 +12,6 @@ class StudentEngine(Engine):
     def coinParity(self, board, color):
         num_pieces_op = len(board.get_squares(color*-1))
         num_pieces_me = len(board.get_squares(color))
-        
         output = (100*(num_pieces_me - num_pieces_op))/ (num_pieces_me + num_pieces_op)
         return output
     
@@ -99,33 +98,35 @@ class StudentEngine(Engine):
                 else:
                     oppVal += stableChain
             i += 1
-                #        print("Black consistent edge pieces: ", myVal , " White consistent edge pieces: ", oppVal)
-                #        board.display( [30, 30])
         if(myVal !=0 or oppVal != 0):
             return (100*(myVal-oppVal))/(myVal+oppVal)
         else:
             return 0
 
             
-    def heuristicFunction(self, board, color, moves, oppMoves):
+    def heuristicFunction(self, board, color, moves, oppMoves, flag):
         weight = 0
         weight += 25*self.coinParity(board, color)
         weight += 5*self.mobility(board, color, moves, oppMoves)
         weight += 30*self.cornersCaptured(board, color)
         weight += 25*self.stability(board, color, moves, oppMoves)
+        if(flag):
+            weight = weight/2
         return weight
     
-    def get_minimax_helper(self, board, color, depth, originalColor):
+    def get_minimax_helper(self, board, color, depth, originalColor, flag):
         moves = board.get_legal_moves(color)
         if depth==self.depthLimit:
             oppMoves = board.get_legal_moves(color * -1)
-            return self.heuristicFunction(board, color, moves, oppMoves)
+            return self.heuristicFunction(board, color, moves, oppMoves, flag)
         else:
             weights = []
             for move in moves:
                 newboard = deepcopy(board)
                 newboard.execute_move(move, color)
-                weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor)
+                if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7]]):
+                    flag = 1
+                weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
                 weights.append(weight)
             #means white has no move
             if(weights == []):
@@ -133,9 +134,15 @@ class StudentEngine(Engine):
                 for move in moves:
                     newboard = deepcopy(board)
                     newboard.execute_move(move, color)
-                    weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor)
+                    if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7]]):
+                        flag = 1
+                    weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
                     weights.append(weight)
-                return max(weights)
+                board.display([30,30])
+                if(weights == []):
+                    return float("-inf")
+                else:
+                    return max(weights)
             else:
                 if(color == originalColor):
                     if(depth == 0):
@@ -156,8 +163,7 @@ class StudentEngine(Engine):
         # Return the best move according to our simple utility function:
         # which move yields the largest different in number of pieces for the
         # given color vs. the opponent?
-        return self.get_minimax_helper(board, color, 0, color)
-        #        return max(moves, key=lambda move: self._get_cost(board, color, move))
+        return self.get_minimax_helper(board, color, 0, color, 0)
 
     def get_ab_minimax_move(self, board, color, move_num=None,
                  time_remaining=None, time_opponent=None):
