@@ -13,6 +13,8 @@ nGames = 100
 for i in range(nGames):
     #    result = subprocess.run(["python3", "othello.py", "student", "random1"], capture_output=True, text=True)
     result = subprocess.run(["python3", "othello.py", "student", "random1"], stdout=subprocess.PIPE)
+    if(i%5 ==0):
+        print("Done ", i , " of ", nGames)
     if result:
         fullOut += result.stdout.decode("utf-8")
 

@@ -111,7 +111,7 @@ class StudentEngine(Engine):
         weight += 30*self.cornersCaptured(board, color)
         weight += 25*self.stability(board, color, moves, oppMoves)
         if(flag):
-            weight = weight/2
+            weight = weight - abs(weight * .5)
         return weight
     
     def get_minimax_helper(self, board, color, depth, originalColor, flag):
@@ -124,7 +124,7 @@ class StudentEngine(Engine):
             for move in moves:
                 newboard = deepcopy(board)
                 newboard.execute_move(move, color)
-                if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7]]):
+                if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7],[1,1],[6,6],[1,6],[6,1]]):
                     flag = 1
                 weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
                 weights.append(weight)
@@ -134,7 +134,7 @@ class StudentEngine(Engine):
                 for move in moves:
                     newboard = deepcopy(board)
                     newboard.execute_move(move, color)
-                    if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7]]):
+                    if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7],[1,1],[6,6],[1,6],[6,1]]):
                         flag = 1
                     weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
                     weights.append(weight)
