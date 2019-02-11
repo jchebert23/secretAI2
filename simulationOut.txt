@@ -1,0 +1,230 @@
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | B B B B B B B B | 7
+6 | B B W B B B B B | 6
+5 | B W B B B B B B | 5
+4 | B B W W W B B B | 4
+3 | B B W B B B B B | 3
+2 | B W W W W B B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 52 / 27.39999999999998
+White: 12 / 30.0
+
+- student (black) wins the game! (52-12)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | W B B B B W W B | 7
+6 | B B W B W W W B | 6
+5 | B B B B B W W B | 5
+4 | B B B B B W W B | 4
+3 | B B B B B B W W | 3
+2 | B B B B B W W W | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 47 / 27.599999999999987
+White: 17 / 30.0
+
+- student (black) wins the game! (47-17)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B W W W W W W | 7
+6 | B B B B W B W W | 6
+5 | B B W B B W B B | 5
+4 | B B B W B B B B | 4
+3 | B B W B W B W W | 3
+2 | B W B B B W B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 45 / 27.699999999999978
+White: 19 / 30.0
+
+- student (black) wins the game! (45-19)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B W W B B B | 8
+7 | B B B W W B B B | 7
+6 | B B B B B W W B | 6
+5 | B W B B W B W W | 5
+4 | B B B B W B W W | 4
+3 | B W B B W W B W | 3
+2 | B W W W W W W W | 2
+1 | B W W W W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 33 / 28.099999999999973
+White: 31 / 30.0
+
+- student (black) wins the game! (33-31)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B B W W W | 7
+6 | B W W W W B W W | 6
+5 | B B B B B W B B | 5
+4 | B B B B B B B B | 4
+3 | B B B B B B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 54 / 28.09999999999998
+White: 10 / 30.0
+
+- student (black) wins the game! (54-10)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W W | 8
+7 | W B W W B W W W | 7
+6 | B B W B W B W B | 6
+5 | B B B B W W B B | 5
+4 | B B W B B W B B | 4
+3 | B B B W B W B B | 3
+2 | B B W W W B B B | 2
+1 | B B B W B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 43 / 26.79999999999999
+White: 21 / 30.0
+
+- student (black) wins the game! (43-21)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | B B B B B B B B | 7
+6 | B W B W W B B B | 6
+5 | B W B B B B B B | 5
+4 | B W B B B B W B | 4
+3 | B W B W B B W B | 3
+2 | B B W W W W W B | 2
+1 | B B B W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 45 / 27.99999999999998
+White: 19 / 30.0
+
+- student (black) wins the game! (45-19)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B W B B B B | 7
+6 | B B W B W B B B | 6
+5 | B B B B B B B W | 5
+4 | B B W B W B B W | 4
+3 | B B B W B B B W | 3
+2 | B B W B W B B W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 51 / 26.799999999999994
+White: 13 / 30.0
+
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B W W W | 8
+7 | B B B B B B W B | 7
+6 | B B B W B W W B | 6
+5 | B B W W W W W B | 5
+4 | B W W B W W B B | 4
+3 | B B B B B B B B | 3
+2 | B B W W B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 46 / 27.799999999999972
+White: 18 / 30.0
+
+- student (black) wins the game! (46-18)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | B B B B B B W B | 7
+6 | B B B B B B W B | 6
+5 | B B B B B W B B | 5
+4 | B B B B W W B B | 4
+3 | B B B W W B B W | 3
+2 | B B W W W W B W | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 50 / 27.99999999999997
+White: 14 / 30.0
+
+- student (black) wins the game! (50-14)
