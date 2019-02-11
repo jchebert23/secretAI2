@@ -9,7 +9,7 @@ import re
 
 
 fullOut = ""
-nGames = 30
+nGames = 10
 for i in range(nGames):
     #    result = subprocess.run(["python3", "othello.py", "student", "random1"], capture_output=True, text=True)
     result = subprocess.run(["python3", "othello.py", "student", "random1"], stdout=subprocess.PIPE)

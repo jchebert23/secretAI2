@@ -36,12 +36,10 @@ class StudentEngine(Engine):
                 myCol += 1
             elif(board[x][y]==(color*-1)):
                 oppCol +=1
-
         if(myCol != 0 or oppCol != 0):
             output = (100 * (myCol - oppCol)) / (myCol + oppCol)
         else:
             output = 0
-                #        print("white corners: ", )
         return output
     
     def stability(self, board, color, myMoves, oppMoves):
@@ -62,7 +60,7 @@ class StudentEngine(Engine):
             tentChain = 0
             if(curColor != 0):
                 stableCorner = 1
-            for i in range(7):
+            for w in range(7):
                 if(board[xCorn][yCorn] == curColor and curColor != 0):
                     if(stableCorner):
                         stableChain += 1
@@ -91,20 +89,30 @@ class StudentEngine(Engine):
                 newY = 0
             if(tentChain != 0 and board[newX][newY] == curColor):
                 if(curColor == color):
+                    myVal += tentChain
+                else:
+                    oppVal += tentChain
+
+            if(stableChain != 0 and board[newX][newY] == curColor):
+                if(curColor == color):
                     myVal += stableChain
                 else:
                     oppVal += stableChain
             i += 1
-                #       print(color, " consistent edge pieces: ", myVal , " " , color*-1, " consistent edge pieces: ", oppVal)
-        return 0
+                #        print("Black consistent edge pieces: ", myVal , " White consistent edge pieces: ", oppVal)
+                #        board.display( [30, 30])
+        if(myVal !=0 or oppVal != 0):
+            return (100*(myVal-oppVal))/(myVal+oppVal)
+        else:
+            return 0
 
             
     def heuristicFunction(self, board, color, moves, oppMoves):
         weight = 0
-        weight += self.coinParity(board, color)
-        weight += self.mobility(board, color, moves, oppMoves)
-        weight += self.cornersCaptured(board, color)
-        weight += self.stability(board, color, moves, oppMoves)
+        weight += 25*self.coinParity(board, color)
+        weight += 5*self.mobility(board, color, moves, oppMoves)
+        weight += 30*self.cornersCaptured(board, color)
+        weight += 25*self.stability(board, color, moves, oppMoves)
         return weight
     
     def get_minimax_helper(self, board, color, depth, originalColor):
@@ -119,15 +127,19 @@ class StudentEngine(Engine):
                 newboard.execute_move(move, color)
                 weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor)
                 weights.append(weight)
+            #means white has no move
             if(weights == []):
-                return float("-inf")
+                moves = board.get_legal_moves(color * -1)
+                for move in moves:
+                    newboard = deepcopy(board)
+                    newboard.execute_move(move, color)
+                    weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor)
+                    weights.append(weight)
+                return max(weights)
             else:
                 if(color == originalColor):
                     if(depth == 0):
                         return moves[weights.index(max(weights))]
-                    else:
-                        print("SHOULD NEVER BE HERE")
-                        return max(weights)
                 else:
                     return min(weights)
 
