@@ -8,6 +8,11 @@ class StudentEngine(Engine):
     alpha_beta = False
     
     depthLimit = 2
+    badSquares = [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7],[1,1],[6,6],[1,6],[6,1]]
+    
+
+    maxAB = float("+inf")
+    minAB = float("-inf")
     
     def coinParity(self, board, color):
         num_pieces_op = len(board.get_squares(color*-1))
@@ -41,7 +46,7 @@ class StudentEngine(Engine):
             output = 0
         return output
     
-    def stability(self, board, color, myMoves, oppMoves):
+    def stability(self, board, color):
         myVal = 0
         oppVal = 0
         i =0
@@ -109,45 +114,103 @@ class StudentEngine(Engine):
         weight += 25*self.coinParity(board, color)
         weight += 5*self.mobility(board, color, moves, oppMoves)
         weight += 30*self.cornersCaptured(board, color)
-        weight += 25*self.stability(board, color, moves, oppMoves)
+        weight += 25*self.stability(board, color)
         if(flag):
             weight = weight - abs(weight * .5)
         return weight
     
     def get_minimax_helper(self, board, color, depth, originalColor, flag):
-        moves = board.get_legal_moves(color)
         if depth==self.depthLimit:
-            oppMoves = board.get_legal_moves(color * -1)
-            return self.heuristicFunction(board, color, moves, oppMoves, flag)
+            moves = board.get_legal_moves(originalColor)
+            oppMoves = board.get_legal_moves(originalColor * -1)
+            heuristicVal = self.heuristicFunction(board, originalColor, moves, oppMoves, flag)
+            return heuristicVal
         else:
+            moves = board.get_legal_moves(color)
             weights = []
             for move in moves:
                 newboard = deepcopy(board)
                 newboard.execute_move(move, color)
-                if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7],[1,1],[6,6],[1,6],[6,1]]):
+                if((move in self.badSquares) and color == originalColor):
                     flag = 1
                 weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
                 weights.append(weight)
-            #means white has no move
-            if(weights == []):
-                moves = board.get_legal_moves(color * -1)
-                for move in moves:
-                    newboard = deepcopy(board)
-                    newboard.execute_move(move, color)
-                    if(move in [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7],[1,1],[6,6],[1,6],[6,1]]):
-                        flag = 1
-                    weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
-                    weights.append(weight)
-                board.display([30,30])
-                if(weights == []):
-                    return float("-inf")
+            #means no moves, so this node can act as fringe node
+            if(len(moves) == 0):
+                moves = board.get_legal_moves(originalColor)
+                oppMoves = board.get_legal_moves(originalColor * -1)
+                heuristicVal = self.heuristicFunction(board, originalColor, moves, oppMoves, flag)
+                return heuristicVal
+            else:
+                if(color == originalColor):
+                    print("MAX: ", max(weights))
+                    if(depth == 0):
+                        return moves[weights.index(max(weights))]
+                    else:
+                        return max(weights)
                 else:
-                    return max(weights)
+                    print("Min: ", min(weights))
+                    return min(weights)
+
+                        
+    def get_ab_minimax_helper(self, board, color, depth, originalColor, flag, parentMinAB, parentMaxAB):
+        if depth==self.depthLimit:
+            moves = board.get_legal_moves(originalColor)
+            oppMoves = board.get_legal_moves(originalColor * -1)
+            heuristicVal = self.heuristicFunction(board, originalColor, moves, oppMoves, flag)
+            return heuristicVal
+        else:
+            moves = board.get_legal_moves(color)
+            weights = []
+            localMinAB = float("-inf")
+            localMaxAB = float("+inf")
+            
+            for move in moves:
+                newboard = deepcopy(board)
+                newboard.execute_move(move, color)
+                if((move in self.badSquares) and color == originalColor):
+                    flag = 1
+                        #              if(depth==0):
+                        #                  print(move)
+                weight = self.get_ab_minimax_helper(newboard, color*-1, depth+1, originalColor, flag, localMinAB, localMaxAB)
+                if(weight == None):
+                    #          print("pruning")
+                    #added this
+                    weights.append(None)
+                    continue
+                if(color == originalColor):
+                    if(weight > localMinAB):
+                        localMinAB = weight
+                    if(localMinAB > parentMaxAB):
+                        return None
+                else:
+                    if(weight < localMaxAB):
+                        localMaxAB = weight
+                    if(localMaxAB < parentMinAB):
+                        #           print("Parent Min: ", parentMinAB, " ", weights, " localMaxAB ", localMaxAB)
+                        return None
+                weights.append(weight)
+                    #          if(depth ==1):
+            #               print("Parent Min: ", parentMinAB, " weights ", weights)
+            #means no moves, so this node can act as fringe node
+            if(len(moves) == 0):
+                moves = board.get_legal_moves(originalColor)
+                oppMoves = board.get_legal_moves(originalColor * -1)
+                heuristicVal = self.heuristicFunction(board, originalColor, moves, oppMoves, flag)
+                return heuristicVal
             else:
                 if(color == originalColor):
                     if(depth == 0):
-                        return moves[weights.index(max(weights))]
+                        #      print("Max Weights", max(weights))
+                        copy = weights.copy()
+                        copy = [a for a in copy if a != None]
+                        return moves[weights.index(max(copy))]
+                    else:
+                        weights = [a for a in weights if a != None]
+                        return max(weights)
                 else:
+                    #                  print("Min Weights", min(weights))
+                    weights = [a for a in weights if a != None]
                     return min(weights)
 
     def get_move(self, board, color, move_num=None,
@@ -163,18 +226,24 @@ class StudentEngine(Engine):
         # Return the best move according to our simple utility function:
         # which move yields the largest different in number of pieces for the
         # given color vs. the opponent?
-        return self.get_minimax_helper(board, color, 0, color, 0)
+        pos = self.get_minimax_helper(board, color, 0, color, 0)
+        print("DONE WITH MOVE\n: Picked: ", pos)
+        print("------------------------------------------")
+        return pos
 
     def get_ab_minimax_move(self, board, color, move_num=None,
                  time_remaining=None, time_opponent=None):
         """ Skeleton code from greedy.py to get you started. """
         # Get a list of all legal moves.
-        moves = board.get_legal_moves(color)
-        
+
         # Return the best move according to our simple utility function:
         # which move yields the largest different in number of pieces for the
         # given color vs. the opponent?
-        return max(moves, key=lambda move: self._get_cost(board, color, move))
+        self.depthLimit = 3
+
+        pos = self.get_ab_minimax_helper(board, color, 0, color, 0, self.minAB, self.maxAB)
+
+        return pos
 
     def _get_cost(self, board, color, move):
         """ Return the difference in number of pieces after the given move 
