@@ -47,7 +47,10 @@ def game(white_engine, black_engine, game_time=300.0, verbose=False):
 
     print("FINAL BOARD\n--\n")
     board.display(time)
-
+    print("Nodes Seen : ", engine[-1].nodesSeen)
+    print("Parent Seen : ", engine[-1].parentNodes)
+    print("Branch Seen : ", engine[-1].branchNodes)
+    print("Duplicated Seen : ", engine[-1].duplicatedNodes)
     return board
 
 
@@ -157,7 +160,7 @@ if __name__ == '__main__':
     parser.add_argument("white_engine", type=str, nargs=1, help="white engine (human, oneply, random, student)")
     parser.add_argument("-aB", action="store_true", help="turn on alpha-beta pruning for the black player")
     parser.add_argument("-aW", action="store_true", help="turn on alpha-beta pruning for the white player")
-    parser.add_argument("-t", type=int, action="store", help="adjust time limit", default=30)
+    parser.add_argument("-t", type=int, action="store", help="adjust time limit", default=40)
     parser.add_argument("-v", action="store_true", help="display the board on each turn")
     args = parser.parse_args();
 

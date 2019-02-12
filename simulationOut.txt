@@ -5,22 +5,350 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | . . B B B B . . | 8
-7 | . . . B B B . . | 7
-6 | . . B B B B . W | 6
-5 | . . . B B B B . | 5
-4 | . . . B B B B B | 4
-3 | . B B B B B B . | 3
-2 | . . . B B . . . | 2
-1 | . . B . B . . . | 1
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B W B W B B B B | 6
+5 | W W B W W B B B | 5
+4 | W W B B B B B B | 4
+3 | W W W W W B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 30 / 27.099999999999994
-White: 1 / 30.0
+Black: 51 / 40.0
+White: 13 / 40.0
 
-- student (black) wins the game! (63-1)
+Nodes Seen :  277
+Parent Seen :  31
+Branch Seen :  246
+Duplicated Seen :  1
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W B B B B | 8
+7 | W B W W B B W B | 7
+6 | B B W B B B B B | 6
+5 | B B W W B W B B | 5
+4 | B B B B W B B B | 4
+3 | B B B B B B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 50 / 40.0
+White: 14 / 40.0
+
+Nodes Seen :  322
+Parent Seen :  30
+Branch Seen :  292
+Duplicated Seen :  0
+- student (black) wins the game! (50-14)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W B B B B | 8
+7 | B W W B B B B B | 7
+6 | B B B B W B W B | 6
+5 | B B B W B B W B | 5
+4 | B W B B W B W B | 4
+3 | B B B B B B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 51 / 40.0
+White: 13 / 40.0
+
+Nodes Seen :  273
+Parent Seen :  30
+Branch Seen :  243
+Duplicated Seen :  2
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B W W W B B | 7
+6 | B B B B B B B B | 6
+5 | W B B B B W B B | 5
+4 | W W B W B W B B | 4
+3 | W W W B B B B B | 3
+2 | W W W W W W B B | 2
+1 | W W W W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 39 / 40.0
+White: 25 / 40.0
+
+Nodes Seen :  315
+Parent Seen :  30
+Branch Seen :  285
+Duplicated Seen :  0
+- student (black) wins the game! (39-25)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W W W B | 8
+7 | B B B W W W B B | 7
+6 | B B W B W B W B | 6
+5 | B B W W W B B W | 5
+4 | B W W W W B B W | 4
+3 | B B B W B W B W | 3
+2 | B B B B W W W W | 2
+1 | B B B B B W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 32 / 40.0
+White: 32 / 40.0
+
+Nodes Seen :  255
+Parent Seen :  29
+Branch Seen :  226
+Duplicated Seen :  1
+- student (black) and random1 (white) are tied! (32-32)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B W | 8
+7 | W B B W W W W W | 7
+6 | W B B B B B W W | 6
+5 | W B B B B W W W | 5
+4 | W B W W W W W B | 4
+3 | W W B B B B B W | 3
+2 | W B B B B B B W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 37 / 40.0
+White: 27 / 40.0
+
+Nodes Seen :  256
+Parent Seen :  30
+Branch Seen :  226
+Duplicated Seen :  1
+- student (black) wins the game! (37-27)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B W B B B | 7
+6 | B B B B B B B B | 6
+5 | B B B B B B B B | 5
+4 | B B B W B B B B | 4
+3 | B B W B W B W W | 3
+2 | B B B B B B W W | 2
+1 | B B B B B W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 53 / 40.0
+White: 11 / 40.0
+
+Nodes Seen :  276
+Parent Seen :  30
+Branch Seen :  246
+Duplicated Seen :  1
+- student (black) wins the game! (53-11)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | W B B W W W W W | 6
+5 | W B B B B B W W | 5
+4 | W B B B B W B W | 4
+3 | W B B B B B B B | 3
+2 | W B B B B B B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 49 / 40.0
+White: 15 / 40.0
+
+Nodes Seen :  333
+Parent Seen :  30
+Branch Seen :  303
+Duplicated Seen :  0
+- student (black) wins the game! (49-15)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | W B B W W W B B | 7
+6 | W B B B W B W B | 6
+5 | B B B B W B B B | 5
+4 | B B W W W W B B | 4
+3 | B B W W W W B W | 3
+2 | B W W W W B B W | 2
+1 | B B B B W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 38 / 40.0
+White: 26 / 40.0
+
+Nodes Seen :  303
+Parent Seen :  29
+Branch Seen :  274
+Duplicated Seen :  1
+- student (black) wins the game! (38-26)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B W W W W | 8
+7 | W W W B B B B B | 7
+6 | W W W W B B B B | 6
+5 | W B W B W B B B | 5
+4 | W B W B B W B B | 4
+3 | W B W B B B W W | 3
+2 | W B B W B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  212
+Parent Seen :  26
+Branch Seen :  186
+Duplicated Seen :  1
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B W B B B B | 7
+6 | B B W B W B B B | 6
+5 | B B W B B B B B | 5
+4 | B B B B W B W B | 4
+3 | B B B B B B W W | 3
+2 | B B B B W W W W | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 52 / 40.0
+White: 12 / 40.0
+
+Nodes Seen :  279
+Parent Seen :  31
+Branch Seen :  248
+Duplicated Seen :  1
+- student (black) wins the game! (52-12)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W B B B B B B B | 7
+6 | W B W W B B B B | 6
+5 | W B W B W B B B | 5
+4 | W W B B B W W B | 4
+3 | W B B B B W W B | 3
+2 | W W W W W W W B | 2
+1 | W W W W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 35 / 40.0
+White: 29 / 40.0
+
+Nodes Seen :  329
+Parent Seen :  30
+Branch Seen :  299
+Duplicated Seen :  2
+- student (black) wins the game! (35-29)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B W W W B B B | 8
+7 | B B W W W W W B | 7
+6 | B W B B W B W B | 6
+5 | W W W W W W W B | 5
+4 | B B B B W B W B | 4
+3 | B B B B B W B W | 3
+2 | B W B B B B W W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 38 / 40.0
+White: 26 / 40.0
+
+Nodes Seen :  277
+Parent Seen :  27
+Branch Seen :  250
+Duplicated Seen :  2
+- student (black) wins the game! (38-26)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -29,20 +357,78 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | W W W W W W W W | 8
-7 | W W B B B B B B | 7
-6 | W B W B B B B B | 6
-5 | B W B W B B B B | 5
-4 | B W W W W B B B | 4
-3 | B W W W W W W B | 3
-2 | B W W W W W W B | 2
-1 | B B B B B B W B | 1
+7 | B W W B B B W B | 7
+6 | B B W W B W W B | 6
+5 | B B B W W W W B | 5
+4 | B B B B W W W B | 4
+3 | B B B B W B B B | 3
+2 | B B B B B B W B | 2
+1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 33 / 17.599999999999994
-White: 31 / 30.0
+Black: 40 / 40.0
+White: 24 / 40.0
 
+Nodes Seen :  244
+Parent Seen :  28
+Branch Seen :  216
+Duplicated Seen :  2
+- student (black) wins the game! (40-24)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B W W W B B | 7
+6 | B B B B B B B B | 6
+5 | B B W W B B B B | 5
+4 | B B W W W B B B | 4
+3 | B B B W W W B B | 3
+2 | B B B B B B W B | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 51 / 40.0
+White: 13 / 40.0
+
+Nodes Seen :  300
+Parent Seen :  30
+Branch Seen :  270
+Duplicated Seen :  1
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B W B B B B B B | 8
+7 | B W W W W W B W | 7
+6 | B W B W B B B W | 6
+5 | B W B W W W B W | 5
+4 | B W W B B W B W | 4
+3 | B W B W B W B W | 3
+2 | B B W B W W W W | 2
+1 | B B B B B W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 33 / 40.0
+White: 31 / 40.0
+
+Nodes Seen :  315
+Parent Seen :  29
+Branch Seen :  286
+Duplicated Seen :  3
 - student (black) wins the game! (33-31)
 student (black) vs. random1 (white)
 
@@ -51,45 +437,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B W W | 8
-7 | B B B B B W W B | 7
-6 | B B B W W W W B | 6
-5 | B B B W W W W B | 5
-4 | B B W W B B W W | 4
-3 | B B B W B W W W | 3
-2 | B B B B W B B B | 2
-1 | B B B B B B B B | 1
+8 | B W B B B B B B | 8
+7 | B W W B B B B B | 7
+6 | B W B W B W B B | 6
+5 | B W B W W W W W | 5
+4 | B W W B B W W W | 4
+3 | B W W W W B W W | 3
+2 | B W B W W B B W | 2
+1 | W W W W W W W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 43 / 19.09999999999999
-White: 21 / 30.0
+Black: 29 / 40.0
+White: 35 / 40.0
 
-- student (black) wins the game! (43-21)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B W W B W B B B | 7
-6 | B W W W B W B B | 6
-5 | B W B W B B B B | 5
-4 | B B B B W B B B | 4
-3 | B B B B B W B B | 3
-2 | W B B B B W W W | 2
-1 | B B B B B W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 46 / 20.2
-White: 18 / 30.0
-
-- student (black) wins the game! (46-18)
+Nodes Seen :  286
+Parent Seen :  29
+Branch Seen :  257
+Duplicated Seen :  0
+- random1 (white) wins the game! (35-29)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -99,66 +466,24 @@ FINAL BOARD
     ---------------
 8 | B B B B B B B B | 8
 7 | B B B B B B B B | 7
-6 | B B W B W W W B | 6
+6 | B B B W B B B B | 6
 5 | B B B B W B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
+4 | B W W B W W B B | 4
+3 | B W W B B B B B | 3
+2 | B B B B B B B W | 2
+1 | B B B B B B B W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 59 / 22.39999999999999
-White: 5 / 30.0
+Black: 54 / 40.0
+White: 10 / 40.0
 
-- student (black) wins the game! (59-5)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B B B B W B | 6
-5 | B B B W B B W B | 5
-4 | B B W B B B W B | 4
-3 | B B B W B W W B | 3
-2 | B B B W W B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 54 / 22.899999999999988
-White: 10 / 30.0
-
+Nodes Seen :  281
+Parent Seen :  30
+Branch Seen :  251
+Duplicated Seen :  1
 - student (black) wins the game! (54-10)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B W B B B | 8
-7 | B B B W W B B B | 7
-6 | B B W B W W B B | 6
-5 | B W B B B W W B | 5
-4 | B B W W B B W W | 4
-3 | B W B B B B B W | 3
-2 | B B B B B B B B | 2
-1 | B B B B B W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 46 / 16.699999999999996
-White: 18 / 30.0
-
-- student (black) wins the game! (46-18)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -168,20 +493,105 @@ FINAL BOARD
     ---------------
 8 | B B B B B B B B | 8
 7 | B B W B B B B B | 7
-6 | B B B W W B B B | 6
-5 | B B B B B B B B | 5
-4 | B B B B B B B . | 4
-3 | B B B W B B B B | 3
-2 | B B W B B B B B | 2
-1 | B W B B B B B B | 1
+6 | B W B W W B B B | 6
+5 | B B B W W W W W | 5
+4 | B B W B W B W W | 4
+3 | B W B W B W W W | 3
+2 | W B B B B B W W | 2
+1 | B B B W W W W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 57 / 21.199999999999992
-White: 6 / 30.0
+Black: 38 / 40.0
+White: 26 / 40.0
 
-- student (black) wins the game! (58-6)
+Nodes Seen :  341
+Parent Seen :  30
+Branch Seen :  311
+Duplicated Seen :  1
+- student (black) wins the game! (38-26)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B W | 8
+7 | B B B B B B W W | 7
+6 | B B B B B W W W | 6
+5 | B W B B B B W B | 5
+4 | B W B W B W W B | 4
+3 | B B B B W B W B | 3
+2 | B B B W B W B B | 2
+1 | W W W W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  305
+Parent Seen :  30
+Branch Seen :  275
+Duplicated Seen :  2
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W B B B B B B | 8
+7 | W W W B B W W B | 7
+6 | B B B W B B B B | 6
+5 | B B B B W W B B | 5
+4 | B B B B B B B . | 4
+3 | B B B B B B B W | 3
+2 | B B B B W B B W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 49 / 40.0
+White: 14 / 40.0
+
+Nodes Seen :  287
+Parent Seen :  29
+Branch Seen :  258
+Duplicated Seen :  1
+- student (black) wins the game! (50-14)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W B B B B B B | 8
+7 | W W W B B B B B | 7
+6 | W W B W B B W B | 6
+5 | W W B B W B B B | 5
+4 | W W B B B W B B | 4
+3 | W W W W B B W B | 3
+2 | W W W W W W W W | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 35 / 40.0
+White: 29 / 40.0
+
+Nodes Seen :  297
+Parent Seen :  28
+Branch Seen :  269
+Duplicated Seen :  1
+- student (black) wins the game! (35-29)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -190,20 +600,510 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | W W W B B B B B | 8
-7 | B W W W W W B B | 7
-6 | B B W W W B B B | 6
-5 | B B B B B B B B | 5
-4 | B B B B W B B B | 4
-3 | B B B B B B B B | 3
+7 | B W B W B B B B | 7
+6 | B B W B W W B B | 6
+5 | B W B B W W W B | 5
+4 | B W W W W B W B | 4
+3 | B B W W W B W B | 3
+2 | B B W B B W W B | 2
+1 | B B B B B B W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 39 / 40.0
+White: 25 / 40.0
+
+Nodes Seen :  245
+Parent Seen :  29
+Branch Seen :  216
+Duplicated Seen :  1
+- student (black) wins the game! (39-25)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W B B B B B B | 8
+7 | W W W B B B W B | 7
+6 | W B B W B W B B | 6
+5 | B B B W W W W B | 5
+4 | B B B B W W W B | 4
+3 | B B B W B W W B | 3
+2 | B B B W W B W W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 40 / 40.0
+White: 24 / 40.0
+
+Nodes Seen :  261
+Parent Seen :  30
+Branch Seen :  231
+Duplicated Seen :  1
+- student (black) wins the game! (40-24)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B W W B B B B | 7
+6 | B W B W B B B B | 6
+5 | W W W W W W B B | 5
+4 | W W B W B W B B | 4
+3 | B B W B W B W B | 3
+2 | W W B B B W W W | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  353
+Parent Seen :  30
+Branch Seen :  323
+Duplicated Seen :  1
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B W B B B B B B | 8
+7 | B W B B B B B B | 7
+6 | B B B W B B W B | 6
+5 | B B B B W B W B | 5
+4 | B B B B B W B B | 4
+3 | B B B B W B W B | 3
+2 | . B B B B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 54 / 40.0
+White: 9 / 40.0
+
+Nodes Seen :  344
+Parent Seen :  30
+Branch Seen :  314
+Duplicated Seen :  1
+- student (black) wins the game! (55-9)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B B B B B W | 6
+5 | B B B B W B B W | 5
+4 | W W W W B W B W | 4
+3 | W B B B B B B W | 3
+2 | B B B B B B B W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 51 / 40.0
+White: 13 / 40.0
+
+Nodes Seen :  245
+Parent Seen :  30
+Branch Seen :  215
+Duplicated Seen :  1
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W W W W W W W B | 7
+6 | W B B W B B B B | 6
+5 | W B W W B W B B | 5
+4 | W B B B W B B B | 4
+3 | W B B W B B B B | 3
 2 | B B B B B B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 52 / 21.3
-White: 12 / 30.0
+Black: 46 / 40.0
+White: 18 / 40.0
 
+Nodes Seen :  353
+Parent Seen :  32
+Branch Seen :  321
+Duplicated Seen :  0
+- student (black) wins the game! (46-18)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W B B B | 8
+7 | W B B B B B B B | 7
+6 | W B B B W B B B | 6
+5 | W B B B W B B B | 5
+4 | B B B B W W B B | 4
+3 | B B B B B B W B | 3
+2 | B B B B B B W W | 2
+1 | B B W W W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 43 / 40.0
+White: 21 / 40.0
+
+Nodes Seen :  253
+Parent Seen :  31
+Branch Seen :  222
+Duplicated Seen :  0
+- student (black) wins the game! (43-21)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W B B B B W B B | 7
+6 | W B B B B B B B | 6
+5 | W B B W B B B B | 5
+4 | W B B B W W B B | 4
+3 | W B B B B B B B | 3
+2 | W W B W W W W W | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 47 / 40.0
+White: 17 / 40.0
+
+Nodes Seen :  285
+Parent Seen :  30
+Branch Seen :  255
+Duplicated Seen :  1
+- student (black) wins the game! (47-17)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | B B B W W W B B | 7
+6 | B B W W W B B B | 6
+5 | B B B W B B B B | 5
+4 | B B W W B B B B | 4
+3 | B B W B B B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 53 / 40.0
+White: 11 / 40.0
+
+Nodes Seen :  219
+Parent Seen :  28
+Branch Seen :  191
+Duplicated Seen :  1
+- student (black) wins the game! (53-11)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B W W B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B B B B B W | 6
+5 | B B B B B B B B | 5
+4 | B B B B W B B B | 4
+3 | B B B B B B B B | 3
+2 | B B W B B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 59 / 40.0
+White: 5 / 40.0
+
+Nodes Seen :  283
+Parent Seen :  30
+Branch Seen :  253
+Duplicated Seen :  4
+- student (black) wins the game! (59-5)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | . . . B B B B B | 8
+7 | . . . B B B B B | 7
+6 | B . B B B B B B | 6
+5 | . B B B B B B B | 5
+4 | B B B B B B B B | 4
+3 | B B B W B B B B | 3
+2 | B B B B W B B B | 2
+1 | B B B B B W B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 53 / 40.0
+White: 3 / 40.0
+
+Nodes Seen :  301
+Parent Seen :  28
+Branch Seen :  273
+Duplicated Seen :  1
+- student (black) wins the game! (61-3)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B W W W W W W | 8
+7 | B B B W W B W W | 7
+6 | B W B B B W W W | 6
+5 | B W W B B W W B | 5
+4 | W W B W W W W B | 4
+3 | W B B B W W B B | 3
+2 | W W W W W W B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 31 / 40.0
+White: 33 / 40.0
+
+Nodes Seen :  263
+Parent Seen :  29
+Branch Seen :  234
+Duplicated Seen :  0
+- random1 (white) wins the game! (33-31)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | B B B B W B B B | 7
+6 | B B B B B W W W | 6
+5 | B B W W W W W W | 5
+4 | B B B B B W W W | 4
+3 | B B B W W W B W | 3
+2 | B B B W W B B W | 2
+1 | W W W W W W B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 36 / 40.0
+White: 28 / 40.0
+
+Nodes Seen :  265
+Parent Seen :  29
+Branch Seen :  236
+Duplicated Seen :  0
+- student (black) wins the game! (36-28)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | W W B B B W B W | 7
+6 | B B B B B B W W | 6
+5 | B B W B W B B W | 5
+4 | B B B B B W B W | 4
+3 | B B B B B B B W | 3
+2 | B B B B B B B W | 2
+1 | B B B B B W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 48 / 40.0
+White: 16 / 40.0
+
+Nodes Seen :  303
+Parent Seen :  30
+Branch Seen :  273
+Duplicated Seen :  0
+- student (black) wins the game! (48-16)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | W W W W W W W B | 7
+6 | B W B B B B W B | 6
+5 | B B W B W W B B | 5
+4 | B B B B W B W B | 4
+3 | B B W W W W B B | 3
+2 | B B B W W B B B | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 42 / 40.0
+White: 22 / 40.0
+
+Nodes Seen :  291
+Parent Seen :  29
+Branch Seen :  262
+Duplicated Seen :  1
+- student (black) wins the game! (42-22)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B W W W | 8
+7 | B B B B B B W W | 7
+6 | W W B B B W W W | 6
+5 | B B B B B B W B | 5
+4 | B B W B B W B B | 4
+3 | B B B W B W B B | 3
+2 | B W B B W B B B | 2
+1 | W W W W W W B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  353
+Parent Seen :  29
+Branch Seen :  324
+Duplicated Seen :  1
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B W W W W B | 7
+6 | B B B B W W B B | 6
+5 | W W W W W B W B | 5
+4 | W W B W W W W W | 4
+3 | W B W B B B W B | 3
+2 | W W B B B B B B | 2
+1 | W W W W W B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 35 / 40.0
+White: 29 / 40.0
+
+Nodes Seen :  269
+Parent Seen :  30
+Branch Seen :  239
+Duplicated Seen :  1
+- student (black) wins the game! (35-29)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W W W W | 8
+7 | W W W B W B W W | 7
+6 | W B W W B W B B | 6
+5 | W B W B W W B B | 5
+4 | W B W W W B W W | 4
+3 | W B W B W B W W | 3
+2 | B B B W W W B W | 2
+1 | W W W W W B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 22 / 40.0
+White: 42 / 40.0
+
+Nodes Seen :  264
+Parent Seen :  28
+Branch Seen :  236
+Duplicated Seen :  1
+- random1 (white) wins the game! (42-22)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W B B B B B B B | 7
+6 | W B W B B B B B | 6
+5 | W B B W B B B B | 5
+4 | W B B B W B B B | 4
+3 | W B W W B B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 52 / 40.0
+White: 12 / 40.0
+
+Nodes Seen :  260
+Parent Seen :  30
+Branch Seen :  230
+Duplicated Seen :  0
 - student (black) wins the game! (52-12)
 student (black) vs. random1 (white)
 
@@ -214,732 +1114,23 @@ FINAL BOARD
     ---------------
 8 | B B B B B B B B | 8
 7 | B B B B B B B B | 7
-6 | B B W B W B W B | 6
-5 | B B B W B W B B | 5
-4 | B B W W B W W B | 4
-3 | B B B W B W B B | 3
-2 | B B W B W W W B | 2
-1 | B B B B B W W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 47 / 21.30000000000001
-White: 17 / 30.0
-
-- student (black) wins the game! (47-17)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B W W W B B W | 7
-6 | B W B W B B B B | 6
-5 | B B W B B W B B | 5
-4 | B W B B W B B B | 4
-3 | B W B W W B B B | 3
-2 | B B B W W W B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 48 / 19.799999999999994
-White: 16 / 30.0
-
-- student (black) wins the game! (48-16)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B W W W B B | 6
-5 | B B W W W B B B | 5
-4 | B W B W W B B B | 4
-3 | B B W B B B W B | 3
-2 | B W B B B B B B | 2
-1 | W B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 51 / 19.69999999999999
-White: 13 / 30.0
-
-- student (black) wins the game! (51-13)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B . B . | 8
-7 | B B B B B B B B | 7
-6 | B B B B B B B B | 6
-5 | B W B B B B B B | 5
+6 | B B W W B B B B | 6
+5 | B B W B W B W W | 5
 4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | . B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 60 / 23.59999999999999
-White: 1 / 30.0
-
-- student (black) wins the game! (63-1)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B W B W B B B | 7
-6 | B B B W B B B B | 6
-5 | B B B B W B B B | 5
-4 | B B B B B W B B | 4
-3 | B B B B B B B B | 3
-2 | B B B W B W B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 57 / 24.099999999999994
-White: 7 / 30.0
-
-- student (black) wins the game! (57-7)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B W | 8
-7 | B B B B B B B W | 7
-6 | B W B B B W B W | 6
-5 | B B B B W W B W | 5
-4 | B B B W W B B B | 4
-3 | B B W W B B B B | 3
-2 | B W W B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 50 / 21.799999999999994
-White: 14 / 30.0
-
-- student (black) wins the game! (50-14)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B W B B | 8
-7 | B B B B B B B B | 7
-6 | B B B W W B B B | 6
-5 | B B B B B W B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 60 / 20.19999999999999
-White: 4 / 30.0
-
-- student (black) wins the game! (60-4)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B W | 8
-7 | B B W W W W W W | 7
-6 | B B B W B B W B | 6
-5 | B B W B B W W B | 5
-4 | B W B B W B W B | 4
-3 | B B W W W W W B | 3
-2 | B B B W W B W B | 2
-1 | B B B W W W W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 37 / 22.899999999999995
-White: 27 / 30.0
-
-- student (black) wins the game! (37-27)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B W B | 8
-7 | B B B W W W W B | 7
-6 | W W W B W B B B | 6
-5 | B W W W W W B B | 5
-4 | B W W B B W W B | 4
-3 | B W B B B B W B | 3
-2 | B W W W W W W W | 2
-1 | B B B B B W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 34 / 25.099999999999984
-White: 30 / 30.0
-
-- student (black) wins the game! (34-30)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B W | 8
-7 | W B B B B B B W | 7
-6 | B W B B B B B W | 6
-5 | B B W B B B B W | 5
-4 | B B B B B B B W | 4
-3 | B B B B B W W W | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 53 / 19.09999999999999
-White: 11 / 30.0
-
-- student (black) wins the game! (53-11)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B W B B B | 8
-7 | W B B W W W B B | 7
-6 | W B B B W B W B | 6
-5 | B B B W B W B B | 5
-4 | B B B B B B B B | 4
-3 | B B B W W W B B | 3
-2 | B B W B B B B B | 2
-1 | B W W W W W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 43 / 23.000000000000004
-White: 21 / 30.0
-
-- student (black) wins the game! (43-21)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | W B B B B B B B | 8
-7 | B B W B W B W B | 7
-6 | B B W W B W W B | 6
-5 | B B B W W B W B | 5
-4 | B B B W W B W B | 4
-3 | B B W B B B W B | 3
-2 | B W W W W W W B | 2
-1 | B B B B B W W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 40 / 25.099999999999987
-White: 24 / 30.0
-
-- student (black) wins the game! (40-24)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B W W B B | 8
-7 | B B B B B W B B | 7
-6 | B B W B B B W B | 6
-5 | B W B B B B W B | 5
-4 | B B B B W W B B | 4
-3 | B B B B B B B B | 3
-2 | B B W W W W B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 51 / 19.200000000000003
-White: 13 / 30.0
-
-- student (black) wins the game! (51-13)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B W B B B | 7
-6 | B W B B B W W B | 6
-5 | B W B B B W W B | 5
-4 | B B B B W W B B | 4
-3 | B W B W B B B B | 3
-2 | B W W B B B B B | 2
-1 | B W W B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 49 / 16.999999999999993
-White: 15 / 30.0
-
-- student (black) wins the game! (49-15)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B . B | 8
-7 | B B B B B B B B | 7
-6 | B B B B B B B B | 6
-5 | B B B B B W B B | 5
-4 | B B B B W W B B | 4
-3 | B B . B B B B B | 3
-2 | B B B B B B B B | 2
-1 | . B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 58 / 21.799999999999997
-White: 3 / 30.0
-
-- student (black) wins the game! (61-3)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B W B B | 8
-7 | B B B B B W B B | 7
-6 | B B W B B W B B | 6
-5 | B W B B B W B B | 5
-4 | W B B B B W B B | 4
-3 | B B B W B W B B | 3
-2 | B B B W W W B B | 2
-1 | B B B B B W B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 50 / 20.9
-White: 14 / 30.0
-
-- student (black) wins the game! (50-14)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B W B B B B B B | 8
-7 | B W W B B B B B | 7
-6 | B W B B B W B B | 6
-5 | B B B B W W W B | 5
-4 | B B B B W W B B | 4
-3 | B B B B W B W B | 3
-2 | B B B W B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 51 / 22.300000000000004
-White: 13 / 30.0
-
-- student (black) wins the game! (51-13)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B B B B B B | 6
-5 | B B B B B B B B | 5
-4 | B B B B B B B B | 4
-3 | B W B B B B B B | 3
-2 | W W W B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 60 / 19.899999999999995
-White: 4 / 30.0
-
-- student (black) wins the game! (60-4)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B W B B B B B | 7
-6 | B B B W W B W B | 6
-5 | B B B B W B B B | 5
-4 | W B W W W B B B | 4
-3 | B B B B W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B W W W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 49 / 24.000000000000004
-White: 15 / 30.0
-
-- student (black) wins the game! (49-15)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B W W W W B B | 7
-6 | B B B B B B B B | 6
-5 | B B B B B B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 60 / 24.299999999999986
-White: 4 / 30.0
-
-- student (black) wins the game! (60-4)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | W W W W W B B B | 6
-5 | W W W B B B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B W B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 55 / 19.199999999999996
-White: 9 / 30.0
-
-- student (black) wins the game! (55-9)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B W W B B W | 7
-6 | B B W W B W B B | 6
-5 | B W B B B W B B | 5
-4 | W W W W W B B B | 4
-3 | B W B B B W B B | 3
-2 | B W W W W W W B | 2
-1 | B W W B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 41 / 21.199999999999992
-White: 23 / 30.0
-
-- student (black) wins the game! (41-23)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | . . B . B . . B | 8
-7 | B B B B B B B B | 7
-6 | . . B B B B B B | 6
-5 | . . B B B B B B | 5
-4 | . B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 54 / 22.5
-White: 0 / 30.0
-
-- student (black) wins the game! (64-0)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B B B B B B | 6
-5 | B B B W B W B B | 5
-4 | W B B B W W B B | 4
-3 | W W B W B W W B | 3
-2 | B B B B W W W B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 51 / 20.199999999999996
-White: 13 / 30.0
-
-- student (black) wins the game! (51-13)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B W | 8
-7 | B B B B W B W W | 7
-6 | B B B B B W B W | 6
-5 | B B B W B B B B | 5
-4 | B B B W B B B B | 4
-3 | B B B B W B B B | 3
-2 | B B B B B W B B | 2
-1 | B B B B B B W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 53 / 20.999999999999996
-White: 11 / 30.0
-
-- student (black) wins the game! (53-11)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B W B B B B B B | 8
-7 | B B B B B B B W | 7
-6 | B B W W B W W B | 6
-5 | B W W W W W B B | 5
-4 | B B B B B B W B | 4
 3 | B B B W B W W B | 3
-2 | B B B B B B B B | 2
+2 | B B B B W B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 49 / 21.900000000000002
-White: 15 / 30.0
+Black: 54 / 40.0
+White: 10 / 40.0
 
-- student (black) wins the game! (49-15)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B . B B B B B B | 8
-7 | B B B B W W B B | 7
-6 | B B B B B B B B | 6
-5 | B B W B B B B B | 5
-4 | B B B W B B B B | 4
-3 | B B B W W B B B | 3
-2 | B B B W W W B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 54 / 17.999999999999996
-White: 9 / 30.0
-
-- student (black) wins the game! (55-9)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B W | 8
-7 | W W W W W B B B | 7
-6 | W B W W B W B B | 6
-5 | W W W W B W W B | 5
-4 | W W W W B W W B | 4
-3 | W W W B B W B B | 3
-2 | W W W W B B W B | 2
-1 | B W B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 32 / 18.599999999999987
-White: 32 / 30.0
-
-- student (black) and random1 (white) are tied! (32-32)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B W B B W B | 6
-5 | B B B B B W W B | 5
-4 | B B B B W W W B | 4
-3 | B B B B W W W W | 3
-2 | B B W W W W W W | 2
-1 | B B B B B W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 44 / 21.299999999999994
-White: 20 / 30.0
-
-- student (black) wins the game! (44-20)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | . B . . . . . . | 8
-7 | . . B . . . . . | 7
-6 | B B B B B B . W | 6
-5 | . . B B B B B . | 5
-4 | . . . B B B . B | 4
-3 | . . . . B . . . | 3
-2 | . . . B B . . . | 2
-1 | . . B . B . . . | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 22 / 29.099999999999994
-White: 1 / 30.0
-
-- student (black) wins the game! (63-1)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | W W W W W W W W | 8
-7 | B B B B W W W B | 7
-6 | B B B B B B B B | 6
-5 | B W B W W B B B | 5
-4 | W W W B W B W B | 4
-3 | W W B W B W W B | 3
-2 | W W B B B W W B | 2
-1 | B B B B B W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 33 / 20.49999999999999
-White: 31 / 30.0
-
-- student (black) wins the game! (33-31)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | W W W B B B B B | 8
-7 | B B B B B B B W | 7
-6 | B B B B W W W W | 6
-5 | B B B W B B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B W B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 54 / 21.5
-White: 10 / 30.0
-
+Nodes Seen :  308
+Parent Seen :  30
+Branch Seen :  278
+Duplicated Seen :  2
 - student (black) wins the game! (54-10)
 student (black) vs. random1 (white)
 
@@ -948,22 +1139,107 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B W B B B B B | 8
-7 | B B W B W B B B | 7
-6 | B B W B W B B B | 6
-5 | B W W B W B B B | 5
-4 | B W W B B B B B | 4
-3 | B W W B B B B B | 3
-2 | B B W B B B B B | 2
-1 | B B W B B B B B | 1
+8 | B B B B B B B B | 8
+7 | B B B B B W W B | 7
+6 | B W B W W W W B | 6
+5 | B W B B B W W B | 5
+4 | B W B W B W W W | 4
+3 | B B W W W B W W | 3
+2 | B B B W W W B W | 2
+1 | W W W W W W W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 50 / 24.099999999999994
-White: 14 / 30.0
+Black: 32 / 40.0
+White: 32 / 40.0
 
-- student (black) wins the game! (50-14)
+Nodes Seen :  316
+Parent Seen :  28
+Branch Seen :  288
+Duplicated Seen :  0
+- student (black) and random1 (white) are tied! (32-32)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W B B B B B B B | 7
+6 | W W W W B B W B | 6
+5 | W B B B B W W B | 5
+4 | W B W B B B W B | 4
+3 | B B B W B B W B | 3
+2 | B B W B W W B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 46 / 40.0
+White: 18 / 40.0
+
+Nodes Seen :  251
+Parent Seen :  30
+Branch Seen :  221
+Duplicated Seen :  0
+- student (black) wins the game! (46-18)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | B B B B B W W B | 7
+6 | B B B W W B W B | 6
+5 | B B B B W W B B | 5
+4 | B B W B B W B B | 4
+3 | B B B W B B W B | 3
+2 | B B B B W W W B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 49 / 40.0
+White: 15 / 40.0
+
+Nodes Seen :  269
+Parent Seen :  30
+Branch Seen :  239
+Duplicated Seen :  1
+- student (black) wins the game! (49-15)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W W W W W B B B | 7
+6 | W W W W B B B B | 6
+5 | W B W B W W B W | 5
+4 | B W W B B W B W | 4
+3 | B B W W B B W W | 3
+2 | B B B W W W W W | 2
+1 | W W W W W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 28 / 40.0
+White: 36 / 40.0
+
+Nodes Seen :  295
+Parent Seen :  30
+Branch Seen :  265
+Duplicated Seen :  3
+- random1 (white) wins the game! (36-28)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -973,19 +1249,185 @@ FINAL BOARD
     ---------------
 8 | B B B B B B B B | 8
 7 | B B B B B B B B | 7
-6 | B B W B B B B B | 6
-5 | B W B W B B W B | 5
-4 | B B W B B W W B | 4
-3 | B W B B W W W B | 3
-2 | B B B B B W W B | 2
-1 | B B B B B B W B | 1
+6 | B W W W W B B B | 6
+5 | B W W B W W B B | 5
+4 | B B W W B W W W | 4
+3 | B B W W W B W W | 3
+2 | B B B W W W B W | 2
+1 | B B B B W W W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 50 / 21.799999999999994
-White: 14 / 30.0
+Black: 38 / 40.0
+White: 26 / 40.0
 
+Nodes Seen :  257
+Parent Seen :  30
+Branch Seen :  227
+Duplicated Seen :  0
+- student (black) wins the game! (38-26)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B W W B B | 7
+6 | B B B B B B W B | 6
+5 | B B B B W B W B | 5
+4 | B B B B W B W B | 4
+3 | B B B W W B W B | 3
+2 | B B B B B W W B | 2
+1 | B B B B B W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 50 / 40.0
+White: 14 / 40.0
+
+Nodes Seen :  348
+Parent Seen :  31
+Branch Seen :  317
+Duplicated Seen :  1
+- student (black) wins the game! (50-14)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B W | 8
+7 | B B B B B B W B | 7
+6 | B B B B B W B B | 6
+5 | B B B B W W W B | 5
+4 | B B B W B W W B | 4
+3 | W W W W W W B B | 3
+2 | B W W W B W B B | 2
+1 | B B W W W W B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  302
+Parent Seen :  27
+Branch Seen :  275
+Duplicated Seen :  0
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B W B B W B B | 7
+6 | B B B W W B B B | 6
+5 | B B W B B B W B | 5
+4 | B B B W B W W B | 4
+3 | B B W B B W B B | 3
+2 | B W B B B B W B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 50 / 40.0
+White: 14 / 40.0
+
+Nodes Seen :  360
+Parent Seen :  29
+Branch Seen :  331
+Duplicated Seen :  2
+- student (black) wins the game! (50-14)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B W | 8
+7 | W W W W W W W W | 7
+6 | W B W W W W B W | 6
+5 | W B B W B W B W | 5
+4 | W B B B W B B W | 4
+3 | W B B W W W B W | 3
+2 | W B B B B W W W | 2
+1 | W W W W W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 24 / 40.0
+White: 40 / 40.0
+
+Nodes Seen :  276
+Parent Seen :  30
+Branch Seen :  246
+Duplicated Seen :  1
+- random1 (white) wins the game! (40-24)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W B B B B B | 8
+7 | W W B W B B B B | 7
+6 | W B B B B B B W | 6
+5 | W W W W B W B W | 5
+4 | B B B B W W B W | 4
+3 | B B B B B W B W | 3
+2 | B B B B B B B W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 43 / 40.0
+White: 21 / 40.0
+
+Nodes Seen :  316
+Parent Seen :  29
+Branch Seen :  287
+Duplicated Seen :  1
+- student (black) wins the game! (43-21)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B B W B B B | 6
+5 | B W B W B W B B | 5
+4 | B B W W B W W B | 4
+3 | B B B B B B B W | 3
+2 | B B B W B B B W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 50 / 40.0
+White: 14 / 40.0
+
+Nodes Seen :  297
+Parent Seen :  30
+Branch Seen :  267
+Duplicated Seen :  0
 - student (black) wins the game! (50-14)
 student (black) vs. random1 (white)
 
@@ -996,65 +1438,23 @@ FINAL BOARD
     ---------------
 8 | B B B B B B B B | 8
 7 | W B B B B B B B | 7
-6 | B W B B B B W B | 6
-5 | B W B B B B W B | 5
-4 | B W W B W W W B | 4
-3 | B W W W W W W B | 3
-2 | B B B B B B B B | 2
+6 | B W B W W W B B | 6
+5 | B B W W W W W B | 5
+4 | B B B B B W W B | 4
+3 | B B W B W W W W | 3
+2 | B B B W W B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 48 / 17.799999999999994
-White: 16 / 30.0
+Black: 45 / 40.0
+White: 19 / 40.0
 
-- student (black) wins the game! (48-16)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | . . . B . . . . | 8
-7 | . B B B B . . B | 7
-6 | . B B B B B B . | 6
-5 | . . B B B B . . | 5
-4 | . . B B B B . . | 4
-3 | . . B B B B . . | 3
-2 | . . B . B . B . | 2
-1 | . . B . B . . . | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 29 / 28.099999999999994
-White: 0 / 30.0
-
-- student (black) wins the game! (64-0)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B W W W W B | 7
-6 | W W W B B W B B | 6
-5 | W W B B W W B B | 5
-4 | W W B W W W B B | 4
-3 | B B W B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 45 / 19.899999999999995
-White: 19 / 30.0
-
+Nodes Seen :  270
+Parent Seen :  30
+Branch Seen :  240
+Duplicated Seen :  1
 - student (black) wins the game! (45-19)
 student (black) vs. random1 (white)
 
@@ -1064,21 +1464,25 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | B B B B B B B B | 8
-7 | B B W B B B W B | 7
-6 | B B B B B B W B | 6
-5 | B B W W W B B B | 5
-4 | B W B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B W B | 2
-1 | B B B B B B B W | 1
+7 | B W B W W W W B | 7
+6 | W W W B B B W B | 6
+5 | B B B B B W B B | 5
+4 | B B B B B B B B | 4
+3 | B B B B W B B B | 3
+2 | B B W W B B B B | 2
+1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 55 / 18.599999999999998
-White: 9 / 30.0
+Black: 51 / 40.0
+White: 13 / 40.0
 
-- student (black) wins the game! (55-9)
+Nodes Seen :  330
+Parent Seen :  30
+Branch Seen :  300
+Duplicated Seen :  1
+- student (black) wins the game! (51-13)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1086,21 +1490,349 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B W B B B B | 8
-7 | B B B W W B B B | 7
-6 | B B B W B W B B | 6
-5 | B B W B B B W B | 5
-4 | B W B W B B W B | 4
-3 | B B B B W B W B | 3
+8 | B B W W W W W W | 8
+7 | B B B W B B W B | 7
+6 | B B B B W W B B | 6
+5 | W B W W W W B B | 5
+4 | B B B W B W W B | 4
+3 | B B B W W W W B | 3
+2 | B B B W W B B B | 2
+1 | B B W W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 35 / 40.0
+White: 29 / 40.0
+
+Nodes Seen :  304
+Parent Seen :  30
+Branch Seen :  274
+Duplicated Seen :  1
+- student (black) wins the game! (35-29)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B W W W W | 8
+7 | B B B B B B W B | 7
+6 | B W W B B W B B | 6
+5 | B W B B W W B B | 5
+4 | B B B W B W W B | 4
+3 | B B W B B B W B | 3
+2 | B B B W W W B B | 2
+1 | B B W W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 40 / 40.0
+White: 24 / 40.0
+
+Nodes Seen :  339
+Parent Seen :  29
+Branch Seen :  310
+Duplicated Seen :  0
+- student (black) wins the game! (40-24)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B B B B B B | 6
+5 | B B B W B B B B | 5
+4 | B B W B W B B B | 4
+3 | B B W W B W B B | 3
+2 | B B B B B B W B | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 56 / 40.0
+White: 8 / 40.0
+
+Nodes Seen :  300
+Parent Seen :  30
+Branch Seen :  270
+Duplicated Seen :  1
+- student (black) wins the game! (56-8)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B W W W B W | 8
+7 | B B B B W B B B | 7
+6 | B B B W W B B B | 6
+5 | B B B B W B B B | 5
+4 | B W B B W B B B | 4
+3 | B B B W B B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B . B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 51 / 40.0
+White: 12 / 40.0
+
+Nodes Seen :  219
+Parent Seen :  30
+Branch Seen :  189
+Duplicated Seen :  2
+- student (black) wins the game! (52-12)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B W B B B B | 6
+5 | B B W B W B B B | 5
+4 | B B B B B B B B | 4
+3 | B B B B B B B B | 3
+2 | B B B B W B W B | 2
+1 | B B B B B B W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 58 / 40.0
+White: 6 / 40.0
+
+Nodes Seen :  285
+Parent Seen :  30
+Branch Seen :  255
+Duplicated Seen :  2
+- student (black) wins the game! (58-6)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W W W B B W B B | 7
+6 | W B B B W W W W | 6
+5 | W B B B B B W W | 5
+4 | W B B B B B W W | 4
+3 | W B W B W B W W | 3
+2 | W W B W B W W W | 2
+1 | W W W W W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 29 / 40.0
+White: 35 / 40.0
+
+Nodes Seen :  294
+Parent Seen :  29
+Branch Seen :  265
+Duplicated Seen :  0
+- random1 (white) wins the game! (35-29)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B W B B B B | 7
+6 | B B B B W B B W | 6
+5 | B B B B B W W W | 5
+4 | B W B B B W W B | 4
+3 | B W B B W W W W | 3
+2 | B B B B W W W W | 2
+1 | B B B B B B B W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 45 / 40.0
+White: 19 / 40.0
+
+Nodes Seen :  325
+Parent Seen :  29
+Branch Seen :  296
+Duplicated Seen :  1
+- student (black) wins the game! (45-19)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B B B B | 8
+7 | W B B B B B B B | 7
+6 | W W W B W B B B | 6
+5 | W B W W B W B W | 5
+4 | B B B W B B W W | 4
+3 | B W B B W W B W | 3
+2 | B B B B B W W W | 2
+1 | B B B B B B W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  299
+Parent Seen :  30
+Branch Seen :  269
+Duplicated Seen :  1
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W W | 8
+7 | B B W B W W W W | 7
+6 | B W B W W W W W | 6
+5 | W W W W W W B B | 5
+4 | W W W B W B B B | 4
+3 | W W W B W B B B | 3
 2 | W W W B B B B B | 2
+1 | W W W B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 31 / 40.0
+White: 33 / 40.0
+
+Nodes Seen :  261
+Parent Seen :  29
+Branch Seen :  232
+Duplicated Seen :  0
+- random1 (white) wins the game! (33-31)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B W W B | 8
+7 | B B B B W W W B | 7
+6 | W B B B W W W B | 6
+5 | W B W B W W W B | 5
+4 | W B W B W W W B | 4
+3 | W B W W W B W B | 3
+2 | B B B B B W W B | 2
+1 | W W W W W W W B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 31 / 40.0
+White: 33 / 40.0
+
+Nodes Seen :  262
+Parent Seen :  30
+Branch Seen :  232
+Duplicated Seen :  1
+- random1 (white) wins the game! (33-31)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W B | 8
+7 | W W B B B W W B | 7
+6 | B B W W W B W B | 6
+5 | B B B W W B W B | 5
+4 | B W W B B W W B | 4
+3 | B W W W B B W B | 3
+2 | B W W W B B B W | 2
+1 | W W W W W W B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 34 / 40.0
+White: 30 / 40.0
+
+Nodes Seen :  251
+Parent Seen :  29
+Branch Seen :  222
+Duplicated Seen :  1
+- student (black) wins the game! (34-30)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B W W W W W B B | 8
+7 | B W W B B B B B | 7
+6 | B W B W B B B B | 6
+5 | B B B B B W B B | 5
+4 | B B B B B W B B | 4
+3 | B B B B W B B B | 3
+2 | B W B B B B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 49 / 20.499999999999993
-White: 15 / 30.0
+Black: 51 / 40.0
+White: 13 / 40.0
 
+Nodes Seen :  362
+Parent Seen :  30
+Branch Seen :  332
+Duplicated Seen :  1
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B W W B B | 7
+6 | W W B W B B W B | 6
+5 | B W W W W W W B | 5
+4 | B B B B B W W B | 4
+3 | B B B B W B B B | 3
+2 | B B B B B B B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 49 / 40.0
+White: 15 / 40.0
+
+Nodes Seen :  246
+Parent Seen :  30
+Branch Seen :  216
+Duplicated Seen :  4
 - student (black) wins the game! (49-15)
 student (black) vs. random1 (white)
 
@@ -1109,22 +1841,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B B B | 8
-7 | B B W W W W B B | 7
+8 | B B B W W B B B | 8
+7 | B B B W W B B W | 7
 6 | B B B B W B B B | 6
-5 | B B B B B B B B | 5
-4 | B B W B B W B B | 4
-3 | B B B B B B W B | 3
-2 | B B B W W W W B | 2
-1 | B B B B B W W B | 1
+5 | B B B W W W B B | 5
+4 | B B B W W B B B | 4
+3 | B B W W W W B B | 3
+2 | B B W W W W B B | 2
+1 | B W W W W B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 50 / 26.599999999999984
-White: 14 / 30.0
+Black: 41 / 40.0
+White: 23 / 40.0
 
-- student (black) wins the game! (50-14)
+Nodes Seen :  321
+Parent Seen :  30
+Branch Seen :  291
+Duplicated Seen :  1
+- student (black) wins the game! (41-23)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1132,22 +1868,53 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B B B | 8
-7 | B B B W B B B W | 7
-6 | B B W B B B W B | 6
-5 | B W B B B W B B | 5
-4 | B B B B B B B B | 4
-3 | B B B W B B B B | 3
-2 | B B W W W B W B | 2
+8 | B B B W W W W W | 8
+7 | B B B B W W W B | 7
+6 | B W B W B W B B | 6
+5 | B B W B B W B B | 5
+4 | B B W B W W B B | 4
+3 | B B W B W W B B | 3
+2 | B B W W B B B B | 2
+1 | B B W B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 42 / 40.0
+White: 22 / 40.0
+
+Nodes Seen :  284
+Parent Seen :  30
+Branch Seen :  254
+Duplicated Seen :  0
+- student (black) wins the game! (42-22)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W B B B | 8
+7 | W B W W W W B B | 7
+6 | B B W B W B W B | 6
+5 | B B W B W B W B | 5
+4 | B B B W W B W B | 4
+3 | B B B B W W W B | 3
+2 | B B B W B B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 53 / 21.89999999999999
-White: 11 / 30.0
+Black: 41 / 40.0
+White: 23 / 40.0
 
-- student (black) wins the game! (53-11)
+Nodes Seen :  310
+Parent Seen :  30
+Branch Seen :  280
+Duplicated Seen :  0
+- student (black) wins the game! (41-23)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1155,44 +1922,25 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B B B | 8
-7 | B B B B W W W W | 7
-6 | B B B B W B W B | 6
-5 | W W W W W W B B | 5
+8 | W W W W W W W B | 8
+7 | W W W B B B B B | 7
+6 | W B W B B B B B | 6
+5 | W W W B B B B B | 5
 4 | W W B B B B B B | 4
-3 | W B B B B B B B | 3
-2 | B B B B B B B B | 2
+3 | W B B W B B B B | 3
+2 | B B B B W B B B | 2
 1 | B W B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 48 / 22.599999999999998
-White: 16 / 30.0
+Black: 43 / 40.0
+White: 21 / 40.0
 
-- student (black) wins the game! (48-16)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B W W W | 8
-7 | B W B B B B W W | 7
-6 | B B B B B B B W | 6
-5 | B B W W B B W W | 5
-4 | B B B W B W B W | 4
-3 | B B W B W B B W | 3
-2 | B W W W B B B W | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 43 / 23.299999999999994
-White: 21 / 30.0
-
+Nodes Seen :  229
+Parent Seen :  28
+Branch Seen :  201
+Duplicated Seen :  2
 - student (black) wins the game! (43-21)
 student (black) vs. random1 (white)
 
@@ -1201,45 +1949,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B W B B B B B B | 8
-7 | W W B B W W B B | 7
-6 | W W B B B B B B | 6
-5 | W W W W W W B B | 5
-4 | B B B W W W B B | 4
-3 | B B B B W B W B | 3
-2 | B B B B B B B W | 2
+8 | W W B B B B B B | 8
+7 | W W W B B B B B | 7
+6 | W W W W B B W B | 6
+5 | W W W W B W W W | 5
+4 | W B B B B W W B | 4
+3 | B B B B B W B B | 3
+2 | B B B W W B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 45 / 23.2
-White: 19 / 30.0
+Black: 41 / 40.0
+White: 23 / 40.0
 
-- student (black) wins the game! (45-19)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | . . B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | . B . B B B B B | 6
-5 | . B B B B B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | . B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 58 / 23.799999999999994
-White: 0 / 30.0
-
-- student (black) wins the game! (64-0)
+Nodes Seen :  285
+Parent Seen :  30
+Branch Seen :  255
+Duplicated Seen :  0
+- student (black) wins the game! (41-23)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1248,21 +1977,25 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | B B B B B B B B | 8
-7 | B B B B B B B W | 7
-6 | B W B W B B B W | 6
-5 | B W B B B B B W | 5
-4 | B B B B B B W W | 4
-3 | B B B W B W W W | 3
-2 | B B W B W W W W | 2
-1 | B B B B B B B B | 1
+7 | B B B W W W W W | 7
+6 | B B B B W W W W | 6
+5 | B B B W B W W W | 5
+4 | B B W B W B W W | 4
+3 | B W B B W W W W | 3
+2 | W W W W W W W W | 2
+1 | B B B B B B W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 47 / 20.099999999999987
-White: 17 / 30.0
+Black: 32 / 40.0
+White: 32 / 40.0
 
-- student (black) wins the game! (47-17)
+Nodes Seen :  273
+Parent Seen :  30
+Branch Seen :  243
+Duplicated Seen :  4
+- student (black) and random1 (white) are tied! (32-32)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1270,45 +2003,53 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B B B | 8
+8 | B B B B B B B W | 8
+7 | W B B B B W W B | 7
+6 | W B B B B W B B | 6
+5 | W W W W W W W B | 5
+4 | B B W B B W B B | 4
+3 | B B B W W W B B | 3
+2 | B B W B B W B B | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 44 / 40.0
+White: 20 / 40.0
+
+Nodes Seen :  332
+Parent Seen :  30
+Branch Seen :  302
+Duplicated Seen :  1
+- student (black) wins the game! (44-20)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B W W | 8
 7 | B B B B B B B B | 7
-6 | . B B B B B B B | 6
+6 | W W W B B B B B | 6
 5 | W B B B B B B B | 5
-4 | W B B B B W B B | 4
-3 | . B B B B B B B | 3
-2 | B . B B B B B B | 2
-1 | . B B B B B B B | 1
+4 | W W W W B B B B | 4
+3 | W W W B B W B B | 3
+2 | W W B B B B B B | 2
+1 | W W W B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 57 / 23.099999999999994
-White: 3 / 30.0
+Black: 45 / 40.0
+White: 19 / 40.0
 
-- student (black) wins the game! (61-3)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B W B B B B B | 8
-7 | B B W W B B B B | 7
-6 | B B W B W W B B | 6
-5 | B B B B B B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 57 / 20.099999999999994
-White: 7 / 30.0
-
-- student (black) wins the game! (57-7)
+Nodes Seen :  231
+Parent Seen :  30
+Branch Seen :  201
+Duplicated Seen :  3
+- student (black) wins the game! (45-19)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1317,21 +2058,25 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B W B W B B B B | 6
-5 | B W B B B B B B | 5
-4 | B W W B B W B B | 4
-3 | B W B W B B B W | 3
-2 | B W W W W W W W | 2
-1 | B W W B B B B W | 1
+7 | B B W W B B B B | 7
+6 | B B B B B B W B | 6
+5 | B B W B B W W B | 5
+4 | B B B W W B W B | 4
+3 | B B W W W B W B | 3
+2 | B B B B B W W B | 2
+1 | W W W W W W W B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 45 / 20.199999999999992
-White: 19 / 30.0
+Black: 42 / 40.0
+White: 22 / 40.0
 
-- student (black) wins the game! (45-19)
+Nodes Seen :  291
+Parent Seen :  30
+Branch Seen :  261
+Duplicated Seen :  0
+- student (black) wins the game! (42-22)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1341,20 +2086,78 @@ FINAL BOARD
     ---------------
 8 | B W W W W W B B | 8
 7 | B B B B W W B B | 7
-6 | B B W W W W B B | 6
-5 | B W B B B B W B | 5
-4 | B W W B B W B B | 4
-3 | B B W B W B W B | 3
+6 | B B B W B W B B | 6
+5 | B B W W W W B B | 5
+4 | B W B B B W B B | 4
+3 | B B W B B B W B | 3
+2 | B W B W B W W W | 2
+1 | B B W B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 41 / 40.0
+White: 23 / 40.0
+
+Nodes Seen :  359
+Parent Seen :  29
+Branch Seen :  330
+Duplicated Seen :  2
+- student (black) wins the game! (41-23)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B W B B B | 8
+7 | B B B B W W B B | 7
+6 | B B B B W W W B | 6
+5 | B B B B B W W B | 5
+4 | B B B B B W W B | 4
+3 | B B B W B B W W | 3
+2 | B B B W W W B W | 2
+1 | B B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 47 / 40.0
+White: 17 / 40.0
+
+Nodes Seen :  233
+Parent Seen :  29
+Branch Seen :  204
+Duplicated Seen :  0
+- student (black) wins the game! (47-17)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W W W W | 8
+7 | B W W W B B W B | 7
+6 | B B W B B W B B | 6
+5 | B B W B W B W B | 5
+4 | B W W W B W W B | 4
+3 | B B W B B B B B | 3
 2 | B B B W B B B B | 2
 1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 44 / 16.799999999999997
-White: 20 / 30.0
+Black: 40 / 40.0
+White: 24 / 40.0
 
-- student (black) wins the game! (44-20)
+Nodes Seen :  310
+Parent Seen :  29
+Branch Seen :  281
+Duplicated Seen :  3
+- student (black) wins the game! (40-24)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1363,21 +2166,25 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | W W B B B B B B | 8
-7 | W W B B B W B B | 7
-6 | W W B W W B B B | 6
-5 | B W B W W B B B | 5
-4 | B B B W B W B B | 4
-3 | B B B B W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
+7 | W W W B W B B W | 7
+6 | W W B W B W W W | 6
+5 | W W B W W W B W | 5
+4 | W W B B W W B W | 4
+3 | W W W W W W B W | 3
+2 | B W W B B B W W | 2
+1 | B B B B B B B W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 49 / 20.1
-White: 15 / 30.0
+Black: 28 / 40.0
+White: 36 / 40.0
 
-- student (black) wins the game! (49-15)
+Nodes Seen :  285
+Parent Seen :  30
+Branch Seen :  255
+Duplicated Seen :  0
+- random1 (white) wins the game! (36-28)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1385,22 +2192,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B W W W B | 8
-7 | B B W W W W W B | 7
-6 | B B B B B B W B | 6
-5 | B B W W B W W B | 5
-4 | B B W W B B W B | 4
-3 | B W B B W B W B | 3
-2 | W W W B B B B B | 2
-1 | B B B B B B B B | 1
+8 | B W B B B B B B | 8
+7 | B W W B W B B B | 7
+6 | W W B W W W B B | 6
+5 | W W B B W B B B | 5
+4 | W W W W W B B B | 4
+3 | W B W W B B B B | 3
+2 | W W B B B B B B | 2
+1 | W B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 42 / 16.299999999999994
-White: 22 / 30.0
+Black: 41 / 40.0
+White: 23 / 40.0
 
-- student (black) wins the game! (42-22)
+Nodes Seen :  337
+Parent Seen :  30
+Branch Seen :  307
+Duplicated Seen :  1
+- student (black) wins the game! (41-23)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1408,22 +2219,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B B W | 8
-7 | B B B B B W W W | 7
-6 | B B B W W W W W | 6
+8 | B W B B B B B B | 8
+7 | B B W B W B B W | 7
+6 | B B B W B B W W | 6
 5 | B B B B W W W W | 5
-4 | B B W W B W B W | 4
-3 | B B B W W W B W | 3
-2 | W B B W W W W W | 2
-1 | B B B B B B B B | 1
+4 | B B B W W W W W | 4
+3 | B B W W W W W W | 3
+2 | B B B W W B W W | 2
+1 | W B B W W W W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 37 / 20.0
-White: 27 / 30.0
+Black: 32 / 40.0
+White: 32 / 40.0
 
-- student (black) wins the game! (37-27)
+Nodes Seen :  213
+Parent Seen :  28
+Branch Seen :  185
+Duplicated Seen :  0
+- student (black) and random1 (white) are tied! (32-32)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1432,21 +2247,187 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | B B B B B B B B | 8
-7 | W B B B B B B B | 7
-6 | W W B B B B B B | 6
-5 | W B W B W B B B | 5
-4 | W W B W W W W B | 4
-3 | W W W B B W W B | 3
-2 | W W W W W W W B | 2
-1 | B B B B B B B B | 1
+7 | B W W B B W B B | 7
+6 | B W B B B B W B | 6
+5 | B W W B W B B B | 5
+4 | B W W B B B B B | 4
+3 | B W B W B B B B | 3
+2 | B W B W W W B B | 2
+1 | W W W W B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 40 / 21.799999999999983
-White: 24 / 30.0
+Black: 44 / 40.0
+White: 20 / 40.0
 
-- student (black) wins the game! (40-24)
+Nodes Seen :  329
+Parent Seen :  29
+Branch Seen :  300
+Duplicated Seen :  0
+- student (black) wins the game! (44-20)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W W W W | 8
+7 | W W B W B B B B | 7
+6 | W W W B W B B B | 6
+5 | W W B W W W B B | 5
+4 | W W B W W B B B | 4
+3 | W B W W W W B B | 3
+2 | W W B B B B B B | 2
+1 | W W W W W W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 25 / 40.0
+White: 39 / 40.0
+
+Nodes Seen :  331
+Parent Seen :  28
+Branch Seen :  303
+Duplicated Seen :  0
+- random1 (white) wins the game! (39-25)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W B B B B W W W | 8
+7 | W B B B B B B B | 7
+6 | W B W B B W B B | 6
+5 | W B B W W W B B | 5
+4 | W B B W W W B B | 4
+3 | W B W B B W B B | 3
+2 | W W B B B B B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 42 / 40.0
+White: 22 / 40.0
+
+Nodes Seen :  276
+Parent Seen :  29
+Branch Seen :  247
+Duplicated Seen :  1
+- student (black) wins the game! (42-22)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B W B B B B B B | 8
+7 | B W B B B B W B | 7
+6 | B B B W B W W B | 6
+5 | B B B B W B W B | 5
+4 | B B B B B W B B | 4
+3 | B B B W B B B B | 3
+2 | B B B B B B B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 53 / 40.0
+White: 11 / 40.0
+
+Nodes Seen :  307
+Parent Seen :  30
+Branch Seen :  277
+Duplicated Seen :  0
+- student (black) wins the game! (53-11)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B W W W W W | 6
+5 | B B W B W B B B | 5
+4 | B B B W B B B B | 4
+3 | W B W B B B B B | 3
+2 | W W B B B B B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 51 / 40.0
+White: 13 / 40.0
+
+Nodes Seen :  255
+Parent Seen :  30
+Branch Seen :  225
+Duplicated Seen :  2
+- student (black) wins the game! (51-13)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W W W W W W W | 8
+7 | W W B W B B B B | 7
+6 | W B W W W W B B | 6
+5 | W W B B B B W B | 5
+4 | W W B B W W W B | 4
+3 | B W B W W B B B | 3
+2 | B W W B B B B B | 2
+1 | B W W B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 33 / 40.0
+White: 31 / 40.0
+
+Nodes Seen :  235
+Parent Seen :  30
+Branch Seen :  205
+Duplicated Seen :  1
+- student (black) wins the game! (33-31)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | W W B B B B B B | 8
+7 | W W W B B B B B | 7
+6 | W W B W B B B B | 6
+5 | W W B W W B B B | 5
+4 | W W W W W W B B | 4
+3 | W W B B W W W W | 3
+2 | W W W W B B W W | 2
+1 | B B B B B B W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 32 / 40.0
+White: 32 / 40.0
+
+Nodes Seen :  351
+Parent Seen :  30
+Branch Seen :  321
+Duplicated Seen :  1
+- student (black) and random1 (white) are tied! (32-32)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -1457,478 +2438,22 @@ FINAL BOARD
 8 | B B B B B B B B | 8
 7 | B B B W B B B B | 7
 6 | B B B B W B B B | 6
-5 | B B B B W W B B | 5
-4 | B B B W B W B B | 4
-3 | B B W W W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 55 / 18.69999999999999
-White: 9 / 30.0
-
-- student (black) wins the game! (55-9)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B W B B | 7
-6 | B B B B W B B B | 6
-5 | B B B B B W B B | 5
-4 | B B B B W B B B | 4
-3 | B B W W W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 57 / 24.59999999999998
-White: 7 / 30.0
-
-- student (black) wins the game! (57-7)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B W W B | 7
-6 | B B B B W B W B | 6
-5 | B B W W B W B B | 5
-4 | B B W B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 56 / 18.79999999999999
-White: 8 / 30.0
-
-- student (black) wins the game! (56-8)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B W | 8
-7 | B B B B W B B W | 7
-6 | B B B B B W B W | 6
-5 | B B B B B B W W | 5
-4 | B B B B B W B W | 4
-3 | B B B B B B B B | 3
-2 | B B W W B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 53 / 21.200000000000003
-White: 11 / 30.0
-
-- student (black) wins the game! (53-11)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B W W | 8
-7 | B B B B B B B W | 7
-6 | B B B B W B W W | 6
-5 | B B B B W W W W | 5
-4 | W B B B W W B W | 4
-3 | B B B B W B B W | 3
+5 | B B W B B W B B | 5
+4 | B W B W B B W W | 4
+3 | B B B W W B W W | 3
 2 | B B B B B B W W | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 46 / 19.59999999999999
-White: 18 / 30.0
-
-- student (black) wins the game! (46-18)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B W W B B B | 6
-5 | B B W B B B B B | 5
-4 | B W B B B W W B | 4
-3 | B B B B W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 57 / 15.999999999999995
-White: 7 / 30.0
-
-- student (black) wins the game! (57-7)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B W W B B W W B | 8
-7 | B W W B W W W B | 7
-6 | B W B W B B W B | 6
-5 | B W B B B B W B | 5
-4 | B B B B B B W B | 4
-3 | B B B W B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 47 / 22.299999999999994
-White: 17 / 30.0
-
-- student (black) wins the game! (47-17)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | W B B B B B B B | 8
-7 | W B B B B B B B | 7
-6 | W B W B B B B B | 6
-5 | B B W B B B B B | 5
-4 | B B W B B B B B | 4
-3 | B B W W W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 55 / 19.3
-White: 9 / 30.0
-
-- student (black) wins the game! (55-9)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B B W W W B B | 6
-5 | B B B B B B W B | 5
-4 | B B B B W W W W | 4
-3 | B B B B W B W W | 3
-2 | B B B W B B W B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 51 / 18.099999999999998
-White: 13 / 30.0
-
-- student (black) wins the game! (51-13)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B . . . . | 8
-7 | B B B B . B . B | 7
-6 | B B B B B B B . | 6
-5 | B B B B B B B B | 5
-4 | B . B B B B B B | 4
-3 | . B B B B B B B | 3
-2 | B B B B B . B B | 2
-1 | B B B B B B . B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 53 / 23.9
-White: 0 / 30.0
-
-- student (black) wins the game! (64-0)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B W W W B | 8
-7 | B B B W B W B B | 7
-6 | B B W W W B W B | 6
-5 | B B B W B B B W | 5
-4 | B B W B W B W B | 4
-3 | B W W W W W B B | 3
-2 | B B W W W W W B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 40 / 21.999999999999996
-White: 24 / 30.0
-
-- student (black) wins the game! (40-24)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B W W W B | 8
-7 | B B B B B B W B | 7
-6 | B B W W B B W W | 6
-5 | B W W B W W W W | 5
-4 | W W B B W W B B | 4
-3 | W W B W W W B B | 3
-2 | W W W B B B B B | 2
-1 | W W W B B B B W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 34 / 21.399999999999995
-White: 30 / 30.0
-
-- student (black) wins the game! (34-30)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B W B B B B B | 8
-7 | B B W B B B B B | 7
-6 | B B W B B B B B | 6
-5 | B B W B B B B B | 5
-4 | B B W B B B B B | 4
-3 | B B W B B B B B | 3
-2 | B B W B B B B B | 2
-1 | W W W B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 54 / 23.6
-White: 10 / 30.0
-
-- student (black) wins the game! (54-10)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B W B B B | 8
-7 | B B B B W B B B | 7
-6 | B B B W B B B B | 6
-5 | B B W W W B B B | 5
-4 | B W B B B W B B | 4
-3 | B B B W B B W B | 3
-2 | B B B B W W W W | 2
-1 | B B B B B B B W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 49 / 23.599999999999994
-White: 15 / 30.0
-
-- student (black) wins the game! (49-15)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B W B B | 7
-6 | B W B B W W W B | 6
-5 | B W B W B W W B | 5
-4 | B W W B B B W B | 4
-3 | B W B B W B W W | 3
-2 | W W W W W W W B | 2
-1 | B B W W W W W B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 36 / 18.400000000000006
-White: 28 / 30.0
-
-- student (black) wins the game! (36-28)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B . B | 8
-7 | . B B B B B B B | 7
-6 | B B B B B B B B | 6
-5 | B B B B B B B B | 5
-4 | B B B B B . B . | 4
-3 | B B B B B B B W | 3
-2 | B B B B B . B . | 2
-1 | B B B B B B B . | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 56 / 21.499999999999993
-White: 1 / 30.0
-
-- student (black) wins the game! (63-1)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B W W B B B | 7
-6 | B B B B B B B B | 6
-5 | B B B B B B W B | 5
-4 | B B B W B B W B | 4
-3 | B B B B B B B B | 3
-2 | B B W B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 58 / 19.29999999999999
-White: 6 / 30.0
-
-- student (black) wins the game! (58-6)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B W W B B | 7
-6 | B B B W B W B B | 6
-5 | B B W W W B B B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B W B B B B | 2
-1 | B B B B B B W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 54 / 23.599999999999998
-White: 10 / 30.0
-
-- student (black) wins the game! (54-10)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B W W W B B B | 7
-6 | B W B B B B B B | 6
-5 | B B W B B B B B | 5
-4 | B B B W B B B B | 4
-3 | B B W W W W W W | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 52 / 21.699999999999996
-White: 12 / 30.0
-
-- student (black) wins the game! (52-12)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B W W | 8
-7 | B B B B B W W W | 7
-6 | B B B W W B W W | 6
-5 | B B B W W B B W | 5
-4 | B B W W W B B W | 4
-3 | B W B W B B W W | 3
-2 | B W W W W W W W | 2
-1 | B W B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 36 / 14.6
-White: 28 / 30.0
-
-- student (black) wins the game! (36-28)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B W B | 8
-7 | B B W W W W B B | 7
-6 | B B B W W B B B | 6
-5 | B B W W B W B B | 5
-4 | B B B B W W B B | 4
-3 | B B B B B B W B | 3
-2 | B B B B B B B W | 2
 1 | W W W W W W W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 42 / 26.299999999999986
-White: 22 / 30.0
+Black: 42 / 40.0
+White: 22 / 40.0
 
+Nodes Seen :  317
+Parent Seen :  30
+Branch Seen :  287
+Duplicated Seen :  1
 - student (black) wins the game! (42-22)
 student (black) vs. random1 (white)
 
@@ -1937,68 +2462,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | . . . B . . . . | 8
-7 | . . . B . B . B | 7
-6 | . . B B . B B . | 6
-5 | . B B B B B B . | 5
-4 | . . B B B B B . | 4
-3 | . B . B B B B B | 3
-2 | . B B B B B B . | 2
-1 | . B . . B . . . | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 33 / 27.899999999999995
-White: 0 / 30.0
-
-- student (black) wins the game! (64-0)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B W B B | 7
-6 | B B B B B B W B | 6
-5 | B B B B B B W B | 5
-4 | B B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B W | 2
-1 | B B B B B W W W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 57 / 19.8
-White: 7 / 30.0
-
-- student (black) wins the game! (57-7)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B W W B B B | 8
-7 | B B B B B B B W | 7
+8 | W W B B B B B B | 8
+7 | W W W B B B B B | 7
 6 | W W B W W W W W | 6
-5 | B W B W W B W W | 5
-4 | B W W W W W B B | 4
-3 | B B B B B B B B | 3
-2 | B W B B B B B B | 2
-1 | B W B B B B B B | 1
+5 | W W W B W B W W | 5
+4 | W W B W B B W W | 4
+3 | W B B B B W W W | 3
+2 | W B B B W B W W | 2
+1 | W W W W W B B W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 42 / 20.49999999999999
-White: 22 / 30.0
+Black: 27 / 40.0
+White: 37 / 40.0
 
-- student (black) wins the game! (42-22)
+Nodes Seen :  250
+Parent Seen :  29
+Branch Seen :  221
+Duplicated Seen :  1
+- random1 (white) wins the game! (37-27)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -2006,160 +2489,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | B B B B B B B B | 8
-7 | B B W B W B B B | 7
-6 | B B B W B W B B | 6
+8 | . . . . B . . B | 8
+7 | B B . . . B B B | 7
+6 | B B B . . B B B | 6
 5 | B B B B B B B B | 5
 4 | B B B B B B B B | 4
 3 | B B B B B B B B | 3
-2 | W B B B B B B B | 2
-1 | B B B B B B B B | 1
+2 | . B B B B B B . | 2
+1 | . . B . . B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 59 / 21.799999999999997
-White: 5 / 30.0
+Black: 47 / 40.0
+White: 0 / 40.0
 
-- student (black) wins the game! (59-5)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B W B B B B B | 8
-7 | B B B B W W B B | 7
-6 | B B B B B B B B | 6
-5 | B B W B B B B B | 5
-4 | B B B B B W B B | 4
-3 | B B B B W B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 58 / 17.69999999999998
-White: 6 / 30.0
-
-- student (black) wins the game! (58-6)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B B B B B B | 7
-6 | B B W W W B B B | 6
-5 | B W B W B B B B | 5
-4 | W B B B B B B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 58 / 23.300000000000004
-White: 6 / 30.0
-
-- student (black) wins the game! (58-6)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B W B B B B B B | 8
-7 | B B W W W W B B | 7
-6 | B W B B B B B B | 6
-5 | W B B B B B B B | 5
-4 | W B B B B W B B | 4
-3 | B B B B B B B B | 3
-2 | B B B B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 55 / 23.499999999999996
-White: 9 / 30.0
-
-- student (black) wins the game! (55-9)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B W W W B B B | 7
-6 | B B B B W B B B | 6
-5 | B B B B B W B B | 5
-4 | B W B W B B W W | 4
-3 | B B B B B B B W | 3
-2 | B B B B B B B W | 2
-1 | B B B B B B B W | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 52 / 19.39999999999999
-White: 12 / 30.0
-
-- student (black) wins the game! (52-12)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B W B B B B B B | 8
-7 | B W W B W W B B | 7
-6 | W W B B B B B B | 6
-5 | W W W B B B B B | 5
-4 | W W W B B B B B | 4
-3 | B W B B B B B B | 3
-2 | B B B W W W B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 47 / 21.4
-White: 17 / 30.0
-
-- student (black) wins the game! (47-17)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | B B B B B B B B | 8
-7 | B B B W W B B B | 7
-6 | B W B B B W B B | 6
-5 | B W W B B W B B | 5
-4 | B W B B B W B B | 4
-3 | B B B B B W B B | 3
-2 | B B W B B B B B | 2
-1 | B B B B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 53 / 21.899999999999995
-White: 11 / 30.0
-
-- student (black) wins the game! (53-11)
+Nodes Seen :  209
+Parent Seen :  22
+Branch Seen :  187
+Duplicated Seen :  1
+- student (black) wins the game! (64-0)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -2168,21 +2517,25 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | B B B B W W W W | 8
-7 | B B B B B W B B | 7
-6 | B B W B W B B B | 6
-5 | B W W B B B B B | 5
-4 | W W B W B B B B | 4
-3 | B B B B W B B B | 3
-2 | B B B B B W B B | 2
-1 | B B B B B B W W | 1
+7 | B B W B B W W B | 7
+6 | B W B W B W B B | 6
+5 | B B W B W W W B | 5
+4 | B W B W W W B B | 4
+3 | W W B W B B B B | 3
+2 | W W W W B B B B | 2
+1 | W W W W B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 48 / 19.700000000000003
-White: 16 / 30.0
+Black: 35 / 40.0
+White: 29 / 40.0
 
-- student (black) wins the game! (48-16)
+Nodes Seen :  287
+Parent Seen :  30
+Branch Seen :  257
+Duplicated Seen :  2
+- student (black) wins the game! (35-29)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -2190,44 +2543,25 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | W B B B B B B B | 8
-7 | B W B W W W B B | 7
-6 | B B W B W B W B | 6
-5 | B B B W B W W B | 5
-4 | B B B B W B W B | 4
-3 | B B B B B W B B | 3
-2 | B B B B B B W B | 2
-1 | B B B B B B B W | 1
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B B B B B B B | 6
+5 | W B B B B B B B | 5
+4 | W W W B B B B B | 4
+3 | W W W B B B B B | 3
+2 | W W W W W W B B | 2
+1 | W W W W W B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 48 / 16.299999999999997
-White: 16 / 30.0
+Black: 46 / 40.0
+White: 18 / 40.0
 
-- student (black) wins the game! (48-16)
-student (black) vs. random1 (white)
-
-FINAL BOARD
---
-
-    A B C D E F G H
-    ---------------
-8 | W B B B B B B B | 8
-7 | W B B W W W B B | 7
-6 | W B B B W B W B | 6
-5 | W B B B B W B B | 5
-4 | W B B B B B B B | 4
-3 | W B B B B B B B | 3
-2 | W B W W W W B B | 2
-1 | B B W B B B B B | 1
-    ---------------
-    A B C D E F G H
-
-STATISTICS (score / remaining time):
-Black: 46 / 21.300000000000004
-White: 18 / 30.0
-
+Nodes Seen :  304
+Parent Seen :  28
+Branch Seen :  276
+Duplicated Seen :  1
 - student (black) wins the game! (46-18)
 student (black) vs. random1 (white)
 
@@ -2236,22 +2570,26 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | W W W W W W W B | 8
-7 | B W W W W W W B | 7
-6 | B W B B B B W B | 6
-5 | B W B W B W W B | 5
-4 | B B B W B W W B | 4
-3 | B B B W W B W B | 3
-2 | B B B W W W W B | 2
-1 | B W W W W W W W | 1
+8 | B B B B B B B B | 8
+7 | B B B B B B B B | 7
+6 | B B W B W B B B | 6
+5 | B B B B W B B B | 5
+4 | B B W W W B B B | 4
+3 | B W B B B B B B | 3
+2 | B B B B W B B B | 2
+1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 28 / 20.899999999999995
-White: 36 / 30.0
+Black: 56 / 40.0
+White: 8 / 40.0
 
-- random1 (white) wins the game! (36-28)
+Nodes Seen :  334
+Parent Seen :  30
+Branch Seen :  304
+Duplicated Seen :  0
+- student (black) wins the game! (56-8)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -2260,21 +2598,25 @@ FINAL BOARD
     A B C D E F G H
     ---------------
 8 | B B B B B B W B | 8
-7 | W W W B B W W W | 7
-6 | B W B W W B W W | 6
-5 | B B W B B W B W | 5
-4 | B B B W W B W W | 4
-3 | B B W B W B W W | 3
-2 | B B B B B W B B | 2
-1 | B B B B B W B B | 1
+7 | B B B B B W W B | 7
+6 | B B B B W B W B | 6
+5 | B W W B B B W B | 5
+4 | B B W W B B W B | 4
+3 | B B B B W B W B | 3
+2 | B B W B B W W W | 2
+1 | B B B B B B W W | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 39 / 24.599999999999998
-White: 25 / 30.0
+Black: 45 / 40.0
+White: 19 / 40.0
 
-- student (black) wins the game! (39-25)
+Nodes Seen :  295
+Parent Seen :  29
+Branch Seen :  266
+Duplicated Seen :  2
+- student (black) wins the game! (45-19)
 student (black) vs. random1 (white)
 
 FINAL BOARD
@@ -2282,19 +2624,77 @@ FINAL BOARD
 
     A B C D E F G H
     ---------------
-8 | W W W W W W W B | 8
-7 | W B B B B W B B | 7
-6 | W W B W W B B B | 6
-5 | B B W B B B B B | 5
-4 | B B W B B B B B | 4
-3 | B B B W W B B B | 3
-2 | B B B B B B B B | 2
-1 | B W B B B B B B | 1
+8 | W B B B B B B B | 8
+7 | W W B B B B B B | 7
+6 | B W W W B B B W | 6
+5 | B B W W B B B B | 5
+4 | B B B W B B B B | 4
+3 | B B B W B B B B | 3
+2 | B B B W W W B B | 2
+1 | B B B B B B B B | 1
     ---------------
     A B C D E F G H
 
 STATISTICS (score / remaining time):
-Black: 46 / 25.499999999999986
-White: 18 / 30.0
+Black: 50 / 40.0
+White: 14 / 40.0
 
-- student (black) wins the game! (46-18)
+Nodes Seen :  263
+Parent Seen :  30
+Branch Seen :  233
+Duplicated Seen :  1
+- student (black) wins the game! (50-14)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B W W B B B B | 8
+7 | B B W W W B B B | 7
+6 | B W B W B W B B | 6
+5 | W B W W B W W B | 5
+4 | W B W B B B B B | 4
+3 | W B B B W B B B | 3
+2 | W B B B B B B B | 2
+1 | W B B B B B B B | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 45 / 40.0
+White: 19 / 40.0
+
+Nodes Seen :  260
+Parent Seen :  30
+Branch Seen :  230
+Duplicated Seen :  0
+- student (black) wins the game! (45-19)
+student (black) vs. random1 (white)
+
+FINAL BOARD
+--
+
+    A B C D E F G H
+    ---------------
+8 | B B W W W B B B | 8
+7 | W W W W B B B B | 7
+6 | W W B W W B W B | 6
+5 | B W B B W W W W | 5
+4 | B B W B B B W W | 4
+3 | B B B B B B B W | 3
+2 | B B W B B B B W | 2
+1 | B B W B B W W W | 1
+    ---------------
+    A B C D E F G H
+
+STATISTICS (score / remaining time):
+Black: 37 / 40.0
+White: 27 / 40.0
+
+Nodes Seen :  287
+Parent Seen :  30
+Branch Seen :  257
+Duplicated Seen :  0
+- student (black) wins the game! (37-27)

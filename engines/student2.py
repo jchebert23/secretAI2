@@ -9,11 +9,7 @@ class StudentEngine(Engine):
     
     depthLimit = 2
     badSquares = [[0,1], [1,0], [6,0], [7,1], [7,6], [6,7], [0,6],[1,7],[1,1],[6,6],[1,6],[6,1]]
-    nodesSeen = 0
-    parentNodes = 0
-    branchNodes = 0
-    duplicatedNodes = 0
-    nodesPrevSeen = {}
+    
 
     maxAB = float("+inf")
     minAB = float("-inf")
@@ -124,7 +120,6 @@ class StudentEngine(Engine):
         return weight
     
     def get_minimax_helper(self, board, color, depth, originalColor, flag):
-        self.nodesSeen += 1
         if depth==self.depthLimit:
             moves = board.get_legal_moves(originalColor)
             oppMoves = board.get_legal_moves(originalColor * -1)
@@ -133,16 +128,9 @@ class StudentEngine(Engine):
         else:
             moves = board.get_legal_moves(color)
             weights = []
-            self.parentNodes += 1
             for move in moves:
-                self.branchNodes += 1
                 newboard = deepcopy(board)
                 newboard.execute_move(move, color)
-                stringRep = str(newboard)
-                if(stringRep not in self.nodesPrevSeen):
-                    self.nodesPrevSeen[stringRep] = 1
-                else:
-                    self.duplicatedNodes += 1
                 if((move in self.badSquares) and color == originalColor):
                     flag = 1
                 weight = self.get_minimax_helper(newboard, color*-1, depth+1, originalColor, flag)
@@ -164,31 +152,28 @@ class StudentEngine(Engine):
 
                         
     def get_ab_minimax_helper(self, board, color, depth, originalColor, flag, parentMinAB, parentMaxAB):
-        self.nodesSeen += 1
         if depth==self.depthLimit:
-            moves = board.get_legal_moves(originalColor)
-            oppMoves = board.get_legal_moves(originalColor * -1)
-            heuristicVal = self.heuristicFunction(board, originalColor, moves, oppMoves, flag)
+            #   moves = board.get_legal_moves(originalColor)
+            #oppMoves = board.get_legal_moves(originalColor * -1)
+            heuristicVal = self.heuristicFunction(board, originalColor, None, None, flag)
             return heuristicVal
         else:
             moves = board.get_legal_moves(color)
             weights = []
             localMinAB = float("-inf")
             localMaxAB = float("+inf")
-            self.parentNodes += 1
+            
             for move in moves:
-                self.branchNodes += 1
                 newboard = deepcopy(board)
                 newboard.execute_move(move, color)
-                stringRep = str(newboard)
-                if(stringRep not in self.nodesPrevSeen):
-                    self.nodesPrevSeen[stringRep] = 1
-                else:
-                    self.duplicatedNodes += 1
                 if((move in self.badSquares) and color == originalColor):
                     flag = 1
+                        #              if(depth==0):
+                        #                  print(move)
                 weight = self.get_ab_minimax_helper(newboard, color*-1, depth+1, originalColor, flag, localMinAB, localMaxAB)
                 if(weight == None):
+                    #          print("pruning")
+                    #added this
                     weights.append(None)
                     continue
                 if(color == originalColor):
@@ -200,18 +185,21 @@ class StudentEngine(Engine):
                     if(weight < localMaxAB):
                         localMaxAB = weight
                     if(localMaxAB < parentMinAB):
+                        #           print("Parent Min: ", parentMinAB, " ", weights, " localMaxAB ", localMaxAB)
                         return None
                 weights.append(weight)
-
+                    #          if(depth ==1):
+            #               print("Parent Min: ", parentMinAB, " weights ", weights)
+            #means no moves, so this node can act as fringe node
             if(len(moves) == 0):
-                moves = board.get_legal_moves(originalColor)
-                oppMoves = board.get_legal_moves(originalColor * -1)
-                heuristicVal = self.heuristicFunction(board, originalColor, moves, oppMoves, flag)
+                # moves = board.get_legal_moves(originalColor)
+                #oppMoves = board.get_legal_moves(originalColor * -1)
+                heuristicVal = self.heuristicFunction(board, originalColor, None, None, flag)
                 return heuristicVal
             else:
                 if(color == originalColor):
                     if(depth == 0):
-        
+                        #      print("Max Weights", max(weights))
                         copy = weights.copy()
                         copy = [a for a in copy if a != None]
                         return moves[weights.index(max(copy))]
@@ -219,7 +207,7 @@ class StudentEngine(Engine):
                         weights = [a for a in weights if a != None]
                         return max(weights)
                 else:
-        
+                    #                  print("Min Weights", min(weights))
                     weights = [a for a in weights if a != None]
                     return min(weights)
 
@@ -247,7 +235,7 @@ class StudentEngine(Engine):
         # Return the best move according to our simple utility function:
         # which move yields the largest different in number of pieces for the
         # given color vs. the opponent?
-        self.depthLimit = 1
+        self.depthLimit = 4
 
         pos = self.get_ab_minimax_helper(board, color, 0, color, 0, self.minAB, self.maxAB)
 
